@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signal Explorer</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f172a; min-height: 100vh;
+      display: flex; align-items: center; justify-content: center;
+    }
+    #gate {
+      background: #1e293b; border: 1px solid #334155; border-radius: 16px;
+      padding: 44px 40px; width: 100%; max-width: 380px; text-align: center;
+      box-shadow: 0 25px 50px rgba(0,0,0,.5);
+    }
+    #gate .logo { font-size: 36px; margin-bottom: 10px; }
+    #gate h1 { color: #f8fafc; font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+    #gate .subtitle {
+      color: #64748b; font-size: 12px; margin-bottom: 28px;
+      text-transform: uppercase; letter-spacing: 0.06em;
+    }
+    #gate input {
+      width: 100%; padding: 12px 14px; background: #0f172a;
+      border: 1px solid #475569; border-radius: 8px; color: #f8fafc;
+      font-size: 15px; letter-spacing: 0.15em; outline: none; transition: border-color .2s;
+    }
+    #gate input:focus { border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59,130,246,.15); }
+    #gate input::placeholder { letter-spacing: 0.04em; color: #475569; }
+    #gate button {
+      margin-top: 10px; width: 100%; padding: 12px; background: #2563eb;
+      color: #fff; border: none; border-radius: 8px; font-size: 15px;
+      font-weight: 600; cursor: pointer; transition: background .15s, transform .1s;
+    }
+    #gate button:hover  { background: #1d4ed8; }
+    #gate button:active { transform: scale(0.98); }
+    #error { margin-top: 12px; color: #f87171; font-size: 13px; min-height: 20px; font-weight: 500; }
+    #gate .hint { margin-top: 20px; color: #334155; font-size: 11px; }
+    #loading {
+      display: none; position: fixed; inset: 0; background: #0f1115;
+      align-items: center; justify-content: center; flex-direction: column;
+      gap: 16px; color: #94a3b8; font-size: 14px;
+    }
+    #loading.show { display: flex; }
+    .spinner {
+      width: 36px; height: 36px; border: 3px solid #334155;
+      border-top-color: #3b82f6; border-radius: 50%; animation: spin .7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    #app { display: none; position: fixed; inset: 0; width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+
+  <!-- Password gate — shares the SAME auth as the main report (sr_auth_v1) -->
+  <div id="gate">
+    <div class="logo">🔎</div>
+    <h1>Signal Explorer</h1>
+    <p class="subtitle">Private &nbsp;·&nbsp; Restricted Access</p>
+    <p style="font-size:10px;color:#475569;margin-top:-18px;margin-bottom:22px;">
+      Same password as the daily report</p>
+    <input id="pw" type="password" placeholder="Enter password"
+           autofocus autocomplete="current-password"
+           onkeydown="if(event.key==='Enter') unlock()">
+    <button onclick="unlock()">Open Explorer</button>
+    <div id="error"></div>
+    <p class="hint">Access is restricted. Contact the owner to request credentials.</p>
+  </div>
+
+  <div id="loading"><div class="spinner"></div><span>Loading explorer…</span></div>
+  <iframe id="app" title="Signal Explorer"></iframe>
+
+  <script>
+    // Same dual-hash scheme + session key as the main report gate (docs/index.html),
+    // so unlocking either one unlocks the other within the same browser session.
+    // Both hashes are injected by the stock-report-private CI workflow.
+    const REPORT_HASH = "241bd098a5e69dffd0be4a38e85b6ac99612108c5ff1002dd3abee82d565f76c";   // daily — replaced by CI
+    const MASTER_HASH = "1716bed4afb07b54967a8de8a67c885321dedf98ba66b11051ccbeeb54999a59";   // master — replaced by CI
+    const SESSION_KEY = "sr_auth_v1";
+
+    async function sha256(str) {
+      const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(str));
+      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+    }
+    async function unlock() {
+      const pw = document.getElementById("pw").value.trim();
+      if (!pw) return;
+      const hash = await sha256(pw);
+      if (hash === REPORT_HASH || hash === MASTER_HASH) {
+        sessionStorage.setItem(SESSION_KEY, "1");
+        showApp();
+      } else {
+        document.getElementById("error").textContent = "Incorrect password.";
+        document.getElementById("pw").value = "";
+        document.getElementById("pw").focus();
+        document.getElementById("gate").animate(
+          [{transform:"translateX(-6px)"},{transform:"translateX(6px)"},
+           {transform:"translateX(-4px)"},{transform:"translateX(4px)"},
+           {transform:"translateX(0)"}], {duration: 300});
+      }
+    }
+    function showApp() {
+      document.getElementById("gate").style.display = "none";
+      document.getElementById("loading").classList.add("show");
+      const frame = document.getElementById("app");
+      frame.onload = () => {
+        document.getElementById("loading").classList.remove("show");
+        frame.style.display = "block";
+      };
+      frame.src = "home.html";
+    }
+    if (sessionStorage.getItem(SESSION_KEY) === "1") { showApp(); }
+  </script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Macro — Signal Explorer</title>
+<style>
+:root{--bg:#0f1115;--panel:#171a21;--panel2:#1e222b;--border:#2a2f3a;--text:#e6e8ec;
+--muted:#98a0ad;--accent:#5b9dff;--accent2:#7c5cff;--good:#34d399;--bad:#f87171;
+--warn:#fbbf24;--chip:#232834;--mono:ui-monospace,Menlo,Consolas,monospace;
+--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);
+font-family:var(--sans);line-height:1.55;font-size:15px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{font-family:var(--mono);background:var(--chip);padding:1px 5px;border-radius:4px;font-size:.88em}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px 80px}
+header.top{position:sticky;top:0;z-index:30;background:rgba(15,17,21,.93);
+backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+header.top .row{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:6px;
+padding:10px 20px;flex-wrap:wrap}
+.brand{font-weight:700;letter-spacing:-.02em;margin-right:14px;font-size:1.05rem}
+.brand span{color:var(--accent)}
+header.top nav{display:flex;gap:2px;flex-wrap:wrap}
+header.top nav a{color:var(--muted);padding:7px 11px;border-radius:8px;font-size:.9rem}
+header.top nav a:hover{color:var(--text);background:var(--chip);text-decoration:none}
+header.top nav a.active{color:var(--text);background:var(--panel2)}
+h1{font-size:1.7rem;margin:24px 0 6px;letter-spacing:-.02em}
+h2{font-size:1.25rem;margin:26px 0 12px}h3{font-size:1.02rem;margin:18px 0 8px}
+.sub{color:var(--muted)}.muted{color:var(--muted)}.small{font-size:.86rem}
+.lead{font-size:1.05rem}
+.grid{display:grid;gap:14px}.cols-2{grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.cols-3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.cols-4{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:18px 20px;margin:12px 0}
+.card.tight{padding:12px 14px}
+.assetcard{display:block;background:var(--panel);border:1px solid var(--border);border-radius:14px;
+padding:20px;transition:transform .12s,border-color .12s}
+.assetcard:hover{transform:translateY(-2px);border-color:var(--accent);text-decoration:none}
+.assetcard .big{font-size:2rem;font-family:var(--mono);margin:6px 0}
+.assetcard .name{font-size:1.1rem;font-weight:600;color:var(--text)}
+.kpi{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:13px 15px}
+.kpi .label{color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:.05em}
+.kpi .val{font-size:1.55rem;font-family:var(--mono);margin-top:3px}
+.kpi .note{color:var(--muted);font-size:.78rem;margin-top:2px}
+.val.good{color:var(--good)}.val.bad{color:var(--bad)}.val.warn{color:var(--warn)}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:.9rem}
+th,td{text-align:left;padding:8px 11px;border-bottom:1px solid var(--border)}
+th{color:var(--muted);font-weight:600;font-size:.76rem;text-transform:uppercase;letter-spacing:.04em}
+th[data-sort]{cursor:pointer;user-select:none}th[data-sort]:hover{color:var(--text)}
+td.num,th.num{text-align:right;font-family:var(--mono)}
+tbody tr{cursor:pointer}tbody tr:hover td{background:rgba(255,255,255,.03)}
+.search{width:100%;background:var(--panel2);border:1px solid var(--border);color:var(--text);
+border-radius:9px;padding:10px 13px;font-size:.94rem;font-family:inherit;margin:8px 0}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
+select,.btn{background:var(--panel2);border:1px solid var(--border);color:var(--text);
+border-radius:8px;padding:8px 11px;font-family:inherit;font-size:.88rem;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.verdict{display:inline-block;padding:2px 9px;border-radius:6px;font-size:.74rem;font-family:var(--mono);font-weight:600}
+.v-fail{background:rgba(248,113,113,.15);color:var(--bad)}
+.v-warn{background:rgba(251,191,36,.15);color:var(--warn)}
+.v-weak{background:rgba(152,160,173,.15);color:var(--muted)}
+.v-ok{background:rgba(52,211,153,.15);color:var(--good)}
+.v-exp{background:rgba(124,92,255,.18);color:#b9a9ff}
+.pill{background:var(--chip);border:1px solid var(--border);border-radius:999px;
+padding:3px 11px;font-size:.78rem;color:var(--muted);font-family:var(--mono)}
+.pill b{color:var(--text)}
+.callout{border-left:3px solid var(--accent);background:var(--panel2);padding:13px 17px;border-radius:0 10px 10px 0;margin:14px 0}
+.callout.warn{border-left-color:var(--warn)}.callout.bad{border-left-color:var(--bad)}
+.callout.good{border-left-color:var(--good)}.callout.exp{border-left-color:var(--accent2)}
+.bar{height:8px;background:var(--chip);border-radius:4px;position:relative;overflow:hidden}
+.bar>span{position:absolute;top:0;bottom:0}
+.spark{display:inline-block;vertical-align:middle}
+footer{color:var(--muted);font-size:.82rem;border-top:1px solid var(--border);margin-top:40px;padding-top:18px}
+.tag{font-size:.72rem;color:var(--muted);border:1px solid var(--border);border-radius:6px;padding:1px 7px;margin-left:6px}
+ul.clean{padding-left:20px}ul.clean li{margin:5px 0}
+.row-actions{display:flex;gap:6px}
+.star{cursor:pointer;color:var(--muted);font-size:1.1rem}.star.on{color:var(--warn)}
+</style>
+<script src="data.js"></script>
+</head><body>
+<header class="top"><div class="row"><div class="brand">Signal<span>Explorer</span></div><nav><a href="home.html">Home</a><a href="stocks.html">Stocks</a><a href="etfs.html">ETFs</a><a href="crypto.html">Crypto</a><a href="macro.html" class="active">Macro</a><a href="screener.html">Screener</a><a href="compare.html">Compare</a><a href="about.html">About</a></nav></div></header>
+<div class="wrap">
+<h1>Macro dashboard</h1>
+<p class="sub">Regime context the pipeline tracks, plus broad index ETFs as market proxies.</p>
+<div class="card" id="fed"></div>
+<h2>Index proxies</h2>
+<div class="grid cols-3" id="idx"></div>
+<script>
+const D=window.SITE_DATA;
+const fed=(D.macro&&D.macro.fed)||null;
+$("#fed").innerHTML=fed?`<h3 style="margin-top:0">Fed context</h3>`+
+  Object.entries(fed).map(([k,v])=>`<div><span class="muted">${k}:</span> <b>${v}</b></div>`).join(""):
+  `<h3 style="margin-top:0">Fed context</h3><span class="muted">Snapshot unavailable in this build (macro fetch degraded gracefully).</span>`;
+const idxSyms=["SPY","QQQ","DIA","IWM","VTI","EEM","TLT","GLD","HYG"];
+const byT={};(D.etfs||[]).forEach(e=>byT[e.ticker]=e);
+$("#idx").innerHTML=idxSyms.filter(s=>byT[s]).map(s=>{const e=byT[s],m=e.metrics;
+  return `<a class="assetcard" href="${tickerHref('etf',s)}"><div class="name">${s} <span class="small muted">${e.name}</span></div>
+   <div class="big" style="color:${colNum(m.ret_3m)}">${pct(m.ret_3m)}</div>
+   <div class="small muted">3-month · vs200d ${pct(m.trend_200d)} · DD ${pct(m.max_drawdown)}</div></a>`;}).join("");
+</script></div>
+<div class="wrap"><footer>
+Static, self-contained, no server. All numbers from a real pipeline run.
+Stocks use the equity InvScore; ETFs &amp; crypto use transparent price-based metrics
+(<a href="about.html">methodology</a>). Descriptive only — not investment advice.
+</footer></div>
+<script>
+const $=(s,r=document)=>r.querySelector(s);
+const $$=(s,r=document)=>Array.from(r.querySelectorAll(s));
+const el=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e;};
+const num=(x,d=2,suf="")=>x==null?"—":(x.toFixed(d)+suf);
+const pct=(x,d=1)=>x==null?"—":((x>0?"+":"")+x.toFixed(d)+"%");
+const pctRaw=(x,d=0)=>x==null?"—":(x*100).toFixed(d)+"%";
+const colNum=x=>x==null?"var(--muted)":(x>0?"var(--good)":(x<0?"var(--bad)":"var(--text)"));
+function invClass(s){return s==null?"":(s>=70?"good":(s>=60?"warn":(s>=45?"":"bad")));}
+function invLabel(s){return s==null?"—":(s>=80?"Strong Buy":s>=70?"Buy":s>=60?"Accumulate":s>=45?"Hold":s>=35?"Reduce":"Avoid");}
+// watchlist in localStorage
+const WL_KEY="se_watchlist";
+function wlGet(){try{return JSON.parse(localStorage.getItem(WL_KEY)||"[]");}catch(e){return [];}}
+function wlHas(id){return wlGet().includes(id);}
+function wlToggle(id){let w=wlGet();w=w.includes(id)?w.filter(x=>x!==id):[...w,id];localStorage.setItem(WL_KEY,JSON.stringify(w));return w.includes(id);}
+function tickerHref(a,t){return `ticker.html?a=${encodeURIComponent(a)}&t=${encodeURIComponent(t)}`;}
+// generic sortable+filterable table
+function makeTable(tbodySel, getRows, renderRow, opts={}){
+  let sortKey=opts.sortKey, sortDir=opts.sortDir||-1, filter="", extra=null;
+  function apply(){
+    let list=getRows().filter(r=>!filter|| (opts.searchText?opts.searchText(r):JSON.stringify(r)).toLowerCase().includes(filter));
+    if(extra) list=list.filter(extra);
+    if(sortKey) list=list.slice().sort((a,b)=>{
+      let x=opts.val?opts.val(a,sortKey):a[sortKey], y=opts.val?opts.val(b,sortKey):b[sortKey];
+      const n=(typeof x==="number")||(typeof y==="number");
+      if(x==null)x=n?-Infinity:"";if(y==null)y=n?-Infinity:"";
+      return typeof x==="string"?sortDir*x.localeCompare(y):sortDir*(x-y);
+    });
+    const tb=$(tbodySel);tb.innerHTML="";
+    list.forEach(r=>tb.appendChild(renderRow(r)));
+    if(opts.onCount)opts.onCount(list.length);
+    return list;
+  }
+  if(opts.searchSel)$(opts.searchSel).addEventListener("input",e=>{filter=e.target.value.trim().toLowerCase();apply();});
+  if(opts.tableSel)$(opts.tableSel).addEventListener("click",e=>{
+    const th=e.target.closest("th[data-sort]");if(!th)return;
+    const k=th.dataset.sort;if(k===sortKey)sortDir=-sortDir;else{sortKey=k;sortDir=opts.strCols&&opts.strCols.includes(k)?1:-1;}
+    apply();
+  });
+  apply.setExtra=f=>{extra=f;apply();};
+  apply();
+  return apply;
+}
+</script>
+</body></html>
