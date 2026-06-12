@@ -1,7 +1,7 @@
 window.SITE_DATA={
- "generated": "2026-06-11",
+ "generated": "2026-06-12",
  "counts": {
-  "stocks": 77,
+  "stocks": 78,
   "etfs": 29,
   "crypto": 10
  },
@@ -11,20 +11,20 @@ window.SITE_DATA={
    "ticker": "000660.KS",
    "name": "000660.KS",
    "sector": "RAM & Memory",
-   "inv_score": 64,
-   "label": "Accumulate",
-   "signal_score": 65,
-   "last_date": "2026-04-13",
-   "n_signals": 8,
+   "inv_score": 71,
+   "label": "Buy",
+   "signal_score": 72,
+   "last_date": "2026-06-12",
+   "n_signals": 9,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -44.4,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 65.0,
-    "l2_graph": 35.0,
-    "l3_news": 52.0,
-    "l4_fa": 85.0,
-    "macro": 55.0
+    "l1_tech": 72.0,
+    "l2_graph": 55.0,
+    "l3_news": 53.0,
+    "l4_fa": 78.0,
+    "macro": 60.0
    }
   },
   {
@@ -32,20 +32,20 @@ window.SITE_DATA={
    "ticker": "005930.KS",
    "name": "005930.KS",
    "sector": "RAM & Memory",
-   "inv_score": 61,
-   "label": "Accumulate",
-   "signal_score": 62,
-   "last_date": "2026-04-13",
-   "n_signals": 8,
+   "inv_score": 70,
+   "label": "Buy",
+   "signal_score": 66,
+   "last_date": "2026-06-12",
+   "n_signals": 9,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -34.5,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 62.0,
-    "l2_graph": 30.0,
+    "l1_tech": 66.0,
+    "l2_graph": 55.0,
     "l3_news": 51.0,
-    "l4_fa": 86.0,
-    "macro": 55.0
+    "l4_fa": 94.0,
+    "macro": 60.0
    }
   },
   {
@@ -95,20 +95,20 @@ window.SITE_DATA={
    "ticker": "AMAT",
    "name": "AMAT",
    "sector": "Semiconductors",
-   "inv_score": 66,
+   "inv_score": 68,
    "label": "Buy",
-   "signal_score": 70,
-   "last_date": "2026-04-13",
-   "n_signals": 7,
+   "signal_score": 69,
+   "last_date": "2026-06-12",
+   "n_signals": 8,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -13.9,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 70.0,
-    "l2_graph": 44.0,
-    "l3_news": 53.0,
-    "l4_fa": 76.0,
-    "macro": 30.0
+    "l1_tech": 69.0,
+    "l2_graph": 42.0,
+    "l3_news": 54.0,
+    "l4_fa": 100.0,
+    "macro": 35.0
    }
   },
   {
@@ -179,20 +179,20 @@ window.SITE_DATA={
    "ticker": "ARM",
    "name": "ARM",
    "sector": "Semiconductors",
-   "inv_score": 58,
+   "inv_score": 64,
    "label": "Accumulate",
-   "signal_score": 72,
-   "last_date": "2026-04-13",
-   "n_signals": 4,
+   "signal_score": 69,
+   "last_date": "2026-06-12",
+   "n_signals": 5,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -30.4,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 72.0,
-    "l2_graph": 34.0,
-    "l3_news": 54.0,
-    "l4_fa": 26.0,
-    "macro": 30.0
+    "l1_tech": 69.0,
+    "l2_graph": 48.0,
+    "l3_news": 52.0,
+    "l4_fa": 60.0,
+    "macro": 35.0
    }
   },
   {
@@ -200,20 +200,20 @@ window.SITE_DATA={
    "ticker": "ASML",
    "name": "ASML",
    "sector": "Semiconductors",
-   "inv_score": 63,
+   "inv_score": 61,
    "label": "Accumulate",
-   "signal_score": 68,
-   "last_date": "2026-04-13",
-   "n_signals": 4,
+   "signal_score": 71,
+   "last_date": "2026-06-12",
+   "n_signals": 5,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -7.9,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 68.0,
-    "l2_graph": 45.0,
-    "l3_news": 53.0,
-    "l4_fa": 53.0,
-    "macro": 30.0
+    "l1_tech": 71.0,
+    "l2_graph": 42.0,
+    "l3_news": 51.0,
+    "l4_fa": 40.0,
+    "macro": 35.0
    }
   },
   {
@@ -263,20 +263,20 @@ window.SITE_DATA={
    "ticker": "BA",
    "name": "BA",
    "sector": "Defense & Aerospace",
-   "inv_score": 44,
-   "label": "Watch",
-   "signal_score": 59,
-   "last_date": "2026-04-06",
-   "n_signals": 5,
+   "inv_score": 60,
+   "label": "Accumulate",
+   "signal_score": 67,
+   "last_date": "2026-06-12",
+   "n_signals": 6,
    "hit_rate_20d": null,
    "avg_return_20d_pct": 4.6,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 59.0,
-    "l2_graph": 53.0,
-    "l3_news": 50.0,
-    "l4_fa": 17.0,
-    "macro": 30.0
+    "l1_tech": 67.0,
+    "l2_graph": 69.0,
+    "l3_news": 54.0,
+    "l4_fa": 0.0,
+    "macro": 35.0
    }
   },
   {
@@ -347,20 +347,20 @@ window.SITE_DATA={
    "ticker": "CDNS",
    "name": "CDNS",
    "sector": "Semiconductors",
-   "inv_score": 52,
-   "label": "Hold",
-   "signal_score": 63,
-   "last_date": "2026-01-26",
-   "n_signals": 2,
+   "inv_score": 69,
+   "label": "Buy",
+   "signal_score": 67,
+   "last_date": "2026-06-12",
+   "n_signals": 3,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -17.2,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 63.0,
-    "l2_graph": 48.0,
+    "l1_tech": 67.0,
+    "l2_graph": 47.0,
     "l3_news": 53.0,
-    "l4_fa": 61.0,
-    "macro": 30.0
+    "l4_fa": 100.0,
+    "macro": 35.0
    }
   },
   {
@@ -389,20 +389,20 @@ window.SITE_DATA={
    "ticker": "CRDO",
    "name": "CRDO",
    "sector": "Data Center Infrastructure",
-   "inv_score": 61,
+   "inv_score": 62,
    "label": "Accumulate",
-   "signal_score": 63,
-   "last_date": "2026-04-13",
-   "n_signals": 2,
+   "signal_score": 72,
+   "last_date": "2026-06-12",
+   "n_signals": 3,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -4.2,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 63.0,
-    "l2_graph": 50.0,
+    "l1_tech": 72.0,
+    "l2_graph": 29.0,
     "l3_news": 53.0,
-    "l4_fa": 53.0,
-    "macro": 30.0
+    "l4_fa": 62.0,
+    "macro": 35.0
    }
   },
   {
@@ -431,20 +431,20 @@ window.SITE_DATA={
    "ticker": "CRWD",
    "name": "CRWD",
    "sector": "Cybersecurity",
-   "inv_score": 42,
-   "label": "Watch",
-   "signal_score": 61,
-   "last_date": "2026-01-26",
-   "n_signals": 1,
+   "inv_score": 57,
+   "label": "Accumulate",
+   "signal_score": 69,
+   "last_date": "2026-06-12",
+   "n_signals": 2,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -46.1,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 61.0,
-    "l2_graph": 40.0,
-    "l3_news": 55.0,
-    "l4_fa": 4.0,
-    "macro": 30.0
+    "l1_tech": 69.0,
+    "l2_graph": 50.0,
+    "l3_news": 53.0,
+    "l4_fa": 0.0,
+    "macro": 35.0
    }
   },
   {
@@ -620,20 +620,20 @@ window.SITE_DATA={
    "ticker": "GD",
    "name": "GD",
    "sector": "Defense & Aerospace",
-   "inv_score": 67,
+   "inv_score": 69,
    "label": "Buy",
-   "signal_score": 60,
-   "last_date": "2026-01-26",
-   "n_signals": 4,
+   "signal_score": 69,
+   "last_date": "2026-06-12",
+   "n_signals": 5,
    "hit_rate_20d": null,
    "avg_return_20d_pct": 3.2,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 60.0,
-    "l2_graph": 71.0,
-    "l3_news": 54.0,
-    "l4_fa": 78.0,
-    "macro": 40.0
+    "l1_tech": 69.0,
+    "l2_graph": 58.0,
+    "l3_news": 55.0,
+    "l4_fa": 80.0,
+    "macro": 45.0
    }
   },
   {
@@ -722,23 +722,44 @@ window.SITE_DATA={
   },
   {
    "asset": "stock",
+   "ticker": "HOOD",
+   "name": "HOOD",
+   "sector": "Fintech & Payments",
+   "inv_score": 60,
+   "label": "Accumulate",
+   "signal_score": 67,
+   "last_date": "2026-06-12",
+   "n_signals": 1,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": null,
+   "regime": "unknown",
+   "layer": {
+    "l1_tech": 67.0,
+    "l2_graph": 44.0,
+    "l3_news": 55.0,
+    "l4_fa": 42.0,
+    "macro": 35.0
+   }
+  },
+  {
+   "asset": "stock",
    "ticker": "ILMN",
    "name": "ILMN",
    "sector": "Biotech / Genomics",
-   "inv_score": 48,
-   "label": "Hold",
-   "signal_score": 57,
-   "last_date": "2026-04-06",
-   "n_signals": 3,
+   "inv_score": 66,
+   "label": "Buy",
+   "signal_score": 71,
+   "last_date": "2026-06-12",
+   "n_signals": 4,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -7.7,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 57.0,
-    "l2_graph": 45.0,
-    "l3_news": 53.0,
-    "l4_fa": 58.0,
-    "macro": 30.0
+    "l1_tech": 71.0,
+    "l2_graph": 42.0,
+    "l3_news": 54.0,
+    "l4_fa": 80.0,
+    "macro": 35.0
    }
   },
   {
@@ -746,20 +767,20 @@ window.SITE_DATA={
    "ticker": "INTC",
    "name": "INTC",
    "sector": "Semiconductors",
-   "inv_score": 59,
+   "inv_score": 58,
    "label": "Accumulate",
-   "signal_score": 78,
-   "last_date": "2026-04-13",
-   "n_signals": 8,
+   "signal_score": 67,
+   "last_date": "2026-06-12",
+   "n_signals": 9,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -45.3,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 78.0,
-    "l2_graph": 33.0,
-    "l3_news": 51.0,
-    "l4_fa": 14.0,
-    "macro": 30.0
+    "l1_tech": 67.0,
+    "l2_graph": 59.0,
+    "l3_news": 53.0,
+    "l4_fa": 0.0,
+    "macro": 35.0
    }
   },
   {
@@ -788,20 +809,20 @@ window.SITE_DATA={
    "ticker": "IRDM",
    "name": "IRDM",
    "sector": "Space",
-   "inv_score": 57,
-   "label": "Accumulate",
-   "signal_score": 66,
-   "last_date": "2026-04-13",
-   "n_signals": 5,
+   "inv_score": 65,
+   "label": "Buy",
+   "signal_score": 74,
+   "last_date": "2026-06-12",
+   "n_signals": 6,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -20.2,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 66.0,
-    "l2_graph": 25.0,
-    "l3_news": 50.0,
-    "l4_fa": 52.0,
-    "macro": 30.0
+    "l1_tech": 74.0,
+    "l2_graph": 60.0,
+    "l3_news": 51.0,
+    "l4_fa": 32.0,
+    "macro": 35.0
    }
   },
   {
@@ -830,20 +851,20 @@ window.SITE_DATA={
    "ticker": "KLAC",
    "name": "KLAC",
    "sector": "Semiconductors",
-   "inv_score": 65,
-   "label": "Buy",
-   "signal_score": 70,
-   "last_date": "2026-04-13",
-   "n_signals": 7,
+   "inv_score": 63,
+   "label": "Accumulate",
+   "signal_score": 72,
+   "last_date": "2026-06-12",
+   "n_signals": 8,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -13.9,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 70.0,
-    "l2_graph": 52.0,
+    "l1_tech": 72.0,
+    "l2_graph": 42.0,
     "l3_news": 52.0,
-    "l4_fa": 59.0,
-    "macro": 30.0
+    "l4_fa": 48.0,
+    "macro": 35.0
    }
   },
   {
@@ -851,20 +872,20 @@ window.SITE_DATA={
    "ticker": "LHX",
    "name": "LHX",
    "sector": "Defense & Aerospace",
-   "inv_score": 57,
+   "inv_score": 59,
    "label": "Accumulate",
-   "signal_score": 62,
-   "last_date": "2026-04-13",
-   "n_signals": 6,
+   "signal_score": 65,
+   "last_date": "2026-06-12",
+   "n_signals": 7,
    "hit_rate_20d": null,
    "avg_return_20d_pct": 7.5,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 62.0,
-    "l2_graph": 44.0,
-    "l3_news": 54.0,
-    "l4_fa": 47.0,
-    "macro": 30.0
+    "l1_tech": 65.0,
+    "l2_graph": 74.0,
+    "l3_news": 51.0,
+    "l4_fa": 64.0,
+    "macro": 35.0
    }
   },
   {
@@ -916,18 +937,18 @@ window.SITE_DATA={
    "sector": "Defense & Aerospace",
    "inv_score": 66,
    "label": "Buy",
-   "signal_score": 66,
-   "last_date": "2026-01-26",
-   "n_signals": 4,
+   "signal_score": 69,
+   "last_date": "2026-06-12",
+   "n_signals": 5,
    "hit_rate_20d": null,
    "avg_return_20d_pct": 13.5,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 66.0,
-    "l2_graph": 55.0,
-    "l3_news": 56.0,
-    "l4_fa": 71.0,
-    "macro": 45.0
+    "l1_tech": 69.0,
+    "l2_graph": 59.0,
+    "l3_news": 50.0,
+    "l4_fa": 91.0,
+    "macro": 50.0
    }
   },
   {
@@ -935,20 +956,20 @@ window.SITE_DATA={
    "ticker": "LRCX",
    "name": "LRCX",
    "sector": "Semiconductors",
-   "inv_score": 64,
-   "label": "Accumulate",
-   "signal_score": 71,
-   "last_date": "2026-04-13",
-   "n_signals": 7,
+   "inv_score": 70,
+   "label": "Buy",
+   "signal_score": 73,
+   "last_date": "2026-06-12",
+   "n_signals": 8,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -17.4,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 71.0,
-    "l2_graph": 38.0,
+    "l1_tech": 73.0,
+    "l2_graph": 42.0,
     "l3_news": 53.0,
-    "l4_fa": 69.0,
-    "macro": 30.0
+    "l4_fa": 100.0,
+    "macro": 35.0
    }
   },
   {
@@ -1040,20 +1061,20 @@ window.SITE_DATA={
    "ticker": "MRVL",
    "name": "MRVL",
    "sector": "Semiconductors",
-   "inv_score": 55,
+   "inv_score": 58,
    "label": "Accumulate",
-   "signal_score": 66,
-   "last_date": "2026-04-06",
-   "n_signals": 5,
+   "signal_score": 68,
+   "last_date": "2026-06-12",
+   "n_signals": 6,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -37.0,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 66.0,
-    "l2_graph": 34.0,
-    "l3_news": 52.0,
-    "l4_fa": 32.0,
-    "macro": 30.0
+    "l1_tech": 68.0,
+    "l2_graph": 37.0,
+    "l3_news": 53.0,
+    "l4_fa": 38.0,
+    "macro": 35.0
    }
   },
   {
@@ -1355,20 +1376,20 @@ window.SITE_DATA={
    "ticker": "ROK",
    "name": "ROK",
    "sector": "Industrial AI",
-   "inv_score": 68,
+   "inv_score": 69,
    "label": "Buy",
-   "signal_score": 73,
-   "last_date": "2026-04-13",
-   "n_signals": 4,
+   "signal_score": 72,
+   "last_date": "2026-06-12",
+   "n_signals": 5,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -4.3,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 73.0,
-    "l2_graph": 53.0,
-    "l3_news": 55.0,
-    "l4_fa": 61.0,
-    "macro": 30.0
+    "l1_tech": 72.0,
+    "l2_graph": 50.0,
+    "l3_news": 51.0,
+    "l4_fa": 84.0,
+    "macro": 35.0
    }
   },
   {
@@ -1376,20 +1397,20 @@ window.SITE_DATA={
    "ticker": "RTX",
    "name": "RTX",
    "sector": "Defense & Aerospace",
-   "inv_score": 70,
-   "label": "Buy",
-   "signal_score": 64,
-   "last_date": "2026-01-05",
-   "n_signals": 3,
+   "inv_score": 62,
+   "label": "Accumulate",
+   "signal_score": 71,
+   "last_date": "2026-06-12",
+   "n_signals": 4,
    "hit_rate_20d": null,
    "avg_return_20d_pct": 11.3,
    "regime": "unknown",
    "layer": {
-    "l1_tech": 64.0,
-    "l2_graph": 74.0,
+    "l1_tech": 71.0,
+    "l2_graph": 60.0,
     "l3_news": 53.0,
-    "l4_fa": 78.0,
-    "macro": 30.0
+    "l4_fa": 61.0,
+    "macro": 35.0
    }
   },
   {
@@ -2184,16 +2205,16 @@ window.SITE_DATA={
    "name": "Bitcoin",
    "sector": "",
    "metrics": {
-    "ret_1m": -18.33,
-    "ret_3m": -11.76,
-    "ret_12m": -47.52,
-    "mom_12_1": -38.26,
-    "trend_200d": -18.81,
+    "ret_1m": -16.11,
+    "ret_3m": -13.22,
+    "ret_12m": -48.2,
+    "mom_12_1": -37.37,
+    "trend_200d": -18.69,
     "above_200d": false,
     "max_drawdown": -51.21,
     "vol_annual": 38.8,
-    "sharpe_naive": 0.14,
-    "last": 63329.97
+    "sharpe_naive": 0.13,
+    "last": 63328.99
    },
    "n_obs": 731
   },
@@ -2203,16 +2224,16 @@ window.SITE_DATA={
    "name": "Ethereum",
    "sector": "",
    "metrics": {
-    "ret_1m": -21.64,
-    "ret_3m": -23.71,
-    "ret_12m": -62.79,
-    "mom_12_1": -54.27,
-    "trend_200d": -31.19,
+    "ret_1m": -19.17,
+    "ret_3m": -25.67,
+    "ret_12m": -63.04,
+    "mom_12_1": -52.87,
+    "trend_200d": -31.06,
     "above_200d": false,
     "max_drawdown": -67.53,
     "vol_annual": 58.8,
-    "sharpe_naive": -0.14,
-    "last": 1670.16
+    "sharpe_naive": -0.15,
+    "last": 1668.92
    },
    "n_obs": 731
   },
@@ -2222,16 +2243,16 @@ window.SITE_DATA={
    "name": "Solana",
    "sector": "",
    "metrics": {
-    "ret_1m": -23.46,
-    "ret_3m": -19.91,
-    "ret_12m": -71.6,
-    "mom_12_1": -63.82,
-    "trend_200d": -33.78,
+    "ret_1m": -20.83,
+    "ret_3m": -21.31,
+    "ret_12m": -71.35,
+    "mom_12_1": -62.43,
+    "trend_200d": -33.51,
     "above_200d": false,
     "max_drawdown": -76.25,
-    "vol_annual": 66.7,
-    "sharpe_naive": -0.09,
-    "last": 66.71
+    "vol_annual": 66.6,
+    "sharpe_naive": -0.11,
+    "last": 66.75
    },
    "n_obs": 731
   },
@@ -2241,16 +2262,16 @@ window.SITE_DATA={
    "name": "BNB",
    "sector": "",
    "metrics": {
-    "ret_1m": -8.33,
-    "ret_3m": -0.04,
-    "ret_12m": -44.75,
-    "mom_12_1": -45.42,
-    "trend_200d": -16.25,
+    "ret_1m": -7.06,
+    "ret_3m": -0.39,
+    "ret_12m": -49.27,
+    "mom_12_1": -43.01,
+    "trend_200d": -15.96,
     "above_200d": false,
     "max_drawdown": -56.33,
-    "vol_annual": 43.4,
-    "sharpe_naive": 0.22,
-    "last": 602.6
+    "vol_annual": 43.3,
+    "sharpe_naive": 0.2,
+    "last": 603.6
    },
    "n_obs": 731
   },
@@ -2260,15 +2281,15 @@ window.SITE_DATA={
    "name": "XRP",
    "sector": "",
    "metrics": {
-    "ret_1m": -16.97,
-    "ret_3m": -15.25,
-    "ret_12m": -62.52,
-    "mom_12_1": -56.14,
-    "trend_200d": -28.53,
+    "ret_1m": -14.52,
+    "ret_3m": -15.97,
+    "ret_12m": -62.51,
+    "mom_12_1": -54.28,
+    "trend_200d": -28.23,
     "above_200d": false,
     "max_drawdown": -69.25,
     "vol_annual": 70.6,
-    "sharpe_naive": 0.76,
+    "sharpe_naive": 0.75,
     "last": 1.14
    },
    "n_obs": 731
@@ -2279,15 +2300,15 @@ window.SITE_DATA={
    "name": "Cardano",
    "sector": "",
    "metrics": {
-    "ret_1m": -31.71,
-    "ret_3m": -32.67,
-    "ret_12m": -80.36,
-    "mom_12_1": -72.02,
-    "trend_200d": -42.94,
+    "ret_1m": -30.08,
+    "ret_3m": -33.34,
+    "ret_12m": -80.43,
+    "mom_12_1": -70.73,
+    "trend_200d": -43.16,
     "above_200d": false,
     "max_drawdown": -87.28,
     "vol_annual": 82.1,
-    "sharpe_naive": -0.0,
+    "sharpe_naive": -0.02,
     "last": 0.17
    },
    "n_obs": 731
@@ -2298,15 +2319,15 @@ window.SITE_DATA={
    "name": "Dogecoin",
    "sector": "",
    "metrics": {
-    "ret_1m": -18.29,
-    "ret_3m": -6.84,
-    "ret_12m": -67.09,
-    "mom_12_1": -60.46,
-    "trend_200d": -22.01,
+    "ret_1m": -15.53,
+    "ret_3m": -7.86,
+    "ret_12m": -66.6,
+    "mom_12_1": -58.96,
+    "trend_200d": -21.63,
     "above_200d": false,
     "max_drawdown": -82.59,
-    "vol_annual": 75.1,
-    "sharpe_naive": 0.15,
+    "vol_annual": 75.0,
+    "sharpe_naive": 0.13,
     "last": 0.09
    },
    "n_obs": 731
@@ -2317,16 +2338,16 @@ window.SITE_DATA={
    "name": "Avalanche",
    "sector": "",
    "metrics": {
-    "ret_1m": -29.78,
-    "ret_3m": -29.1,
-    "ret_12m": -78.63,
-    "mom_12_1": -70.83,
-    "trend_200d": -36.77,
+    "ret_1m": -27.84,
+    "ret_3m": -29.82,
+    "ret_12m": -78.95,
+    "mom_12_1": -68.87,
+    "trend_200d": -36.84,
     "above_200d": false,
     "max_drawdown": -88.16,
     "vol_annual": 73.1,
-    "sharpe_naive": -0.37,
-    "last": 6.63
+    "sharpe_naive": -0.4,
+    "last": 6.6
    },
    "n_obs": 731
   },
@@ -2336,16 +2357,16 @@ window.SITE_DATA={
    "name": "Chainlink",
    "sector": "",
    "metrics": {
-    "ret_1m": -18.94,
-    "ret_3m": -11.71,
-    "ret_12m": -65.33,
-    "mom_12_1": -58.2,
-    "trend_200d": -24.01,
+    "ret_1m": -16.63,
+    "ret_3m": -13.62,
+    "ret_12m": -65.15,
+    "mom_12_1": -56.62,
+    "trend_200d": -24.27,
     "above_200d": false,
     "max_drawdown": -74.9,
-    "vol_annual": 73.9,
-    "sharpe_naive": 0.07,
-    "last": 7.9
+    "vol_annual": 73.8,
+    "sharpe_naive": 0.03,
+    "last": 7.85
    },
    "n_obs": 731
   },
@@ -2355,15 +2376,15 @@ window.SITE_DATA={
    "name": "Polkadot",
    "sector": "",
    "metrics": {
-    "ret_1m": -26.07,
-    "ret_3m": -26.75,
-    "ret_12m": -77.91,
-    "mom_12_1": -70.9,
-    "trend_200d": -38.81,
+    "ret_1m": -24.21,
+    "ret_3m": -26.99,
+    "ret_12m": -77.94,
+    "mom_12_1": -69.26,
+    "trend_200d": -38.47,
     "above_200d": false,
     "max_drawdown": -91.44,
-    "vol_annual": 72.0,
-    "sharpe_naive": -0.56,
+    "vol_annual": 71.9,
+    "sharpe_naive": -0.58,
     "last": 0.95
    },
    "n_obs": 731
