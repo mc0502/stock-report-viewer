@@ -1,5 +1,5 @@
 window.SITE_DATA={
- "generated": "2026-06-18",
+ "generated": "2026-06-19",
  "counts": {
   "stocks": 39,
   "etfs": 29,
@@ -833,15 +833,15 @@ window.SITE_DATA={
    "name": "S&P 500",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 1.77,
-    "ret_3m": 13.49,
-    "ret_12m": 26.4,
+    "ret_1m": 2.04,
+    "ret_3m": 13.78,
+    "ret_12m": 26.73,
     "mom_12_1": 25.49,
-    "trend_200d": 8.82,
+    "trend_200d": 9.09,
     "above_200d": true,
     "max_drawdown": -18.76,
     "vol_annual": 16.9,
-    "sharpe_naive": 1.08,
+    "sharpe_naive": 1.09,
     "last": 746.74
    },
    "n_obs": 501
@@ -890,15 +890,15 @@ window.SITE_DATA={
    "name": "Dow 30",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 4.36,
-    "ret_3m": 12.16,
-    "ret_12m": 23.71,
+    "ret_1m": 4.65,
+    "ret_3m": 12.47,
+    "ret_12m": 24.04,
     "mom_12_1": 20.12,
-    "trend_200d": 7.49,
+    "trend_200d": 7.78,
     "above_200d": true,
     "max_drawdown": -15.95,
     "vol_annual": 15.1,
-    "sharpe_naive": 1.09,
+    "sharpe_naive": 1.1,
     "last": 515.52
    },
    "n_obs": 501
@@ -1042,18 +1042,18 @@ window.SITE_DATA={
    "name": "Consumer Disc.",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 1.85,
-    "ret_3m": 7.01,
-    "ret_12m": 12.29,
-    "mom_12_1": 12.98,
-    "trend_200d": -0.19,
+    "ret_1m": -0.71,
+    "ret_3m": 4.66,
+    "ret_12m": 8.78,
+    "mom_12_1": 10.25,
+    "trend_200d": -1.6,
     "above_200d": false,
     "max_drawdown": -26.01,
     "vol_annual": 22.5,
-    "sharpe_naive": 0.73,
-    "last": 117.16
+    "sharpe_naive": 0.69,
+    "last": 115.49
    },
-   "n_obs": 501
+   "n_obs": 500
   },
   {
    "asset": "etf",
@@ -1251,15 +1251,15 @@ window.SITE_DATA={
    "name": "Emerging (Vanguard)",
    "sector": "International",
    "metrics": {
-    "ret_1m": 5.01,
-    "ret_3m": 12.52,
-    "ret_12m": 29.38,
+    "ret_1m": 5.14,
+    "ret_3m": 12.65,
+    "ret_12m": 29.54,
     "mom_12_1": 25.25,
-    "trend_200d": 9.42,
+    "trend_200d": 9.55,
     "above_200d": true,
     "max_drawdown": -17.37,
-    "vol_annual": 17.6,
-    "sharpe_naive": 1.16,
+    "vol_annual": 17.7,
+    "sharpe_naive": 1.17,
     "last": 60.77
    },
    "n_obs": 501
@@ -1386,18 +1386,18 @@ window.SITE_DATA={
    "name": "Bitcoin",
    "sector": "",
    "metrics": {
-    "ret_1m": -14.54,
-    "ret_3m": -16.37,
-    "ret_12m": -48.36,
+    "ret_1m": -13.94,
+    "ret_3m": -15.79,
+    "ret_12m": -48.0,
     "mom_12_1": -35.19,
-    "trend_200d": -18.51,
+    "trend_200d": -17.94,
     "above_200d": false,
     "max_drawdown": -51.21,
-    "vol_annual": 38.8,
-    "sharpe_naive": 0.16,
-    "last": 62846.08
+    "vol_annual": 38.9,
+    "sharpe_naive": 0.17,
+    "last": 63285.92
    },
-   "n_obs": 731
+   "n_obs": 730
   },
   {
    "asset": "crypto",
@@ -1405,18 +1405,18 @@ window.SITE_DATA={
    "name": "Ethereum",
    "sector": "",
    "metrics": {
-    "ret_1m": -14.95,
-    "ret_3m": -27.3,
-    "ret_12m": -60.92,
+    "ret_1m": -14.98,
+    "ret_3m": -27.33,
+    "ret_12m": -60.94,
     "mom_12_1": -47.65,
-    "trend_200d": -28.35,
+    "trend_200d": -28.37,
     "above_200d": false,
     "max_drawdown": -67.53,
-    "vol_annual": 58.8,
-    "sharpe_naive": -0.13,
-    "last": 1707.47
+    "vol_annual": 58.9,
+    "sharpe_naive": -0.14,
+    "last": 1706.8
    },
-   "n_obs": 731
+   "n_obs": 730
   },
   {
    "asset": "crypto",
@@ -1424,16 +1424,16 @@ window.SITE_DATA={
    "name": "Solana",
    "sector": "",
    "metrics": {
-    "ret_1m": -15.12,
-    "ret_3m": -21.8,
-    "ret_12m": -68.51,
-    "mom_12_1": -56.57,
-    "trend_200d": -29.27,
+    "ret_1m": -15.36,
+    "ret_3m": -21.97,
+    "ret_12m": -63.24,
+    "mom_12_1": -53.64,
+    "trend_200d": -29.3,
     "above_200d": false,
     "max_drawdown": -76.25,
     "vol_annual": 66.5,
     "sharpe_naive": -0.02,
-    "last": 69.59
+    "last": 69.35
    },
    "n_obs": 731
   },
@@ -1443,18 +1443,18 @@ window.SITE_DATA={
    "name": "BNB",
    "sector": "",
    "metrics": {
-    "ret_1m": -9.32,
-    "ret_3m": -9.05,
-    "ret_12m": -53.97,
+    "ret_1m": -8.99,
+    "ret_3m": -8.72,
+    "ret_12m": -53.8,
     "mom_12_1": -41.97,
-    "trend_200d": -18.58,
+    "trend_200d": -18.27,
     "above_200d": false,
     "max_drawdown": -56.33,
-    "vol_annual": 43.3,
-    "sharpe_naive": 0.2,
-    "last": 578.05
+    "vol_annual": 43.4,
+    "sharpe_naive": 0.19,
+    "last": 580.16
    },
-   "n_obs": 731
+   "n_obs": 730
   },
   {
    "asset": "crypto",
@@ -1462,16 +1462,16 @@ window.SITE_DATA={
    "name": "XRP",
    "sector": "",
    "metrics": {
-    "ret_1m": -12.86,
-    "ret_3m": -21.21,
-    "ret_12m": -59.19,
-    "mom_12_1": -43.68,
-    "trend_200d": -26.54,
+    "ret_1m": -14.69,
+    "ret_3m": -23.28,
+    "ret_12m": -51.95,
+    "mom_12_1": -43.91,
+    "trend_200d": -27.07,
     "above_200d": false,
     "max_drawdown": -69.25,
     "vol_annual": 70.6,
-    "sharpe_naive": 0.76,
-    "last": 1.14
+    "sharpe_naive": 0.75,
+    "last": 1.13
    },
    "n_obs": 731
   },
@@ -1481,18 +1481,18 @@ window.SITE_DATA={
    "name": "Cardano",
    "sector": "",
    "metrics": {
-    "ret_1m": -30.38,
-    "ret_3m": -37.05,
-    "ret_12m": -79.99,
+    "ret_1m": -31.02,
+    "ret_3m": -37.63,
+    "ret_12m": -80.18,
     "mom_12_1": -63.36,
-    "trend_200d": -43.86,
+    "trend_200d": -44.37,
     "above_200d": false,
     "max_drawdown": -87.28,
     "vol_annual": 82.2,
     "sharpe_naive": 0.02,
     "last": 0.16
    },
-   "n_obs": 731
+   "n_obs": 730
   },
   {
    "asset": "crypto",
@@ -1500,18 +1500,18 @@ window.SITE_DATA={
    "name": "Dogecoin",
    "sector": "",
    "metrics": {
-    "ret_1m": -16.13,
-    "ret_3m": -15.94,
-    "ret_12m": -66.46,
+    "ret_1m": -16.32,
+    "ret_3m": -16.14,
+    "ret_12m": -66.53,
     "mom_12_1": -48.42,
-    "trend_200d": -22.99,
+    "trend_200d": -23.16,
     "above_200d": false,
     "max_drawdown": -82.59,
-    "vol_annual": 74.8,
+    "vol_annual": 74.9,
     "sharpe_naive": 0.19,
     "last": 0.08
    },
-   "n_obs": 731
+   "n_obs": 730
   },
   {
    "asset": "crypto",
@@ -1519,18 +1519,18 @@ window.SITE_DATA={
    "name": "Avalanche",
    "sector": "",
    "metrics": {
-    "ret_1m": -29.32,
-    "ret_3m": -35.24,
-    "ret_12m": -77.8,
+    "ret_1m": -33.47,
+    "ret_3m": -39.04,
+    "ret_12m": -79.11,
     "mom_12_1": -57.48,
-    "trend_200d": -38.33,
+    "trend_200d": -41.93,
     "above_200d": false,
-    "max_drawdown": -88.32,
-    "vol_annual": 72.9,
-    "sharpe_naive": -0.32,
-    "last": 6.3
+    "max_drawdown": -89.0,
+    "vol_annual": 73.1,
+    "sharpe_naive": -0.35,
+    "last": 5.93
    },
-   "n_obs": 731
+   "n_obs": 730
   },
   {
    "asset": "crypto",
@@ -1538,18 +1538,18 @@ window.SITE_DATA={
    "name": "Chainlink",
    "sector": "",
    "metrics": {
-    "ret_1m": -11.11,
-    "ret_3m": -16.6,
-    "ret_12m": -63.7,
+    "ret_1m": -11.87,
+    "ret_3m": -17.32,
+    "ret_12m": -64.02,
     "mom_12_1": -48.05,
-    "trend_200d": -21.78,
+    "trend_200d": -22.45,
     "above_200d": false,
     "max_drawdown": -74.9,
     "vol_annual": 73.7,
-    "sharpe_naive": 0.1,
-    "last": 7.99
+    "sharpe_naive": 0.09,
+    "last": 7.92
    },
-   "n_obs": 731
+   "n_obs": 730
   },
   {
    "asset": "crypto",
@@ -1557,18 +1557,18 @@ window.SITE_DATA={
    "name": "Polkadot",
    "sector": "",
    "metrics": {
-    "ret_1m": -19.85,
-    "ret_3m": -26.97,
-    "ret_12m": -76.15,
+    "ret_1m": -21.17,
+    "ret_3m": -28.17,
+    "ret_12m": -76.54,
     "mom_12_1": -59.76,
-    "trend_200d": -35.63,
+    "trend_200d": -36.68,
     "above_200d": false,
     "max_drawdown": -91.44,
     "vol_annual": 71.8,
-    "sharpe_naive": -0.5,
-    "last": 0.97
+    "sharpe_naive": -0.51,
+    "last": 0.96
    },
-   "n_obs": 731
+   "n_obs": 730
   }
  ],
  "macro": {
