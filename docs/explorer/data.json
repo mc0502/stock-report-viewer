@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-02",
+ "generated": "2026-07-03",
  "counts": {
   "stocks": 30,
   "etfs": 29,
@@ -1197,16 +1197,16 @@
    "name": "Bitcoin",
    "sector": "",
    "metrics": {
-    "ret_1m": -3.58,
-    "ret_3m": -19.68,
-    "ret_12m": -44.32,
-    "mom_12_1": -42.77,
-    "trend_200d": -18.36,
+    "ret_1m": -1.62,
+    "ret_3m": -20.04,
+    "ret_12m": -43.7,
+    "mom_12_1": -42.3,
+    "trend_200d": -16.59,
     "above_200d": false,
     "max_drawdown": -53.06,
-    "vol_annual": 38.8,
-    "sharpe_naive": 0.18,
-    "last": 61284.75
+    "vol_annual": 38.7,
+    "sharpe_naive": 0.23,
+    "last": 62513.58
    },
    "n_obs": 731
   },
@@ -1216,16 +1216,16 @@
    "name": "Ethereum",
    "sector": "",
    "metrics": {
-    "ret_1m": 1.08,
-    "ret_3m": -25.08,
-    "ret_12m": -56.17,
-    "mom_12_1": -57.68,
-    "trend_200d": -25.86,
+    "ret_1m": 5.47,
+    "ret_3m": -23.48,
+    "ret_12m": -55.36,
+    "mom_12_1": -57.5,
+    "trend_200d": -22.77,
     "above_200d": false,
     "max_drawdown": -67.61,
     "vol_annual": 59.0,
-    "sharpe_naive": -0.12,
-    "last": 1690.28
+    "sharpe_naive": -0.07,
+    "last": 1756.25
    },
    "n_obs": 731
   },
@@ -1235,16 +1235,16 @@
    "name": "Solana",
    "sector": "",
    "metrics": {
-    "ret_1m": 20.42,
-    "ret_3m": -3.08,
-    "ret_12m": -57.95,
-    "mom_12_1": -65.51,
-    "trend_200d": -14.41,
+    "ret_1m": 23.22,
+    "ret_3m": -1.76,
+    "ret_12m": -57.51,
+    "mom_12_1": -64.51,
+    "trend_200d": -12.3,
     "above_200d": false,
     "max_drawdown": -76.25,
-    "vol_annual": 66.4,
-    "sharpe_naive": -0.01,
-    "last": 80.47
+    "vol_annual": 66.2,
+    "sharpe_naive": 0.05,
+    "last": 82.25
    },
    "n_obs": 731
   },
@@ -1254,16 +1254,16 @@
    "name": "BNB",
    "sector": "",
    "metrics": {
-    "ret_1m": -8.04,
-    "ret_3m": -9.54,
-    "ret_12m": -50.66,
-    "mom_12_1": -45.59,
-    "trend_200d": -19.06,
+    "ret_1m": -5.08,
+    "ret_3m": -6.9,
+    "ret_12m": -48.35,
+    "mom_12_1": -45.42,
+    "trend_200d": -16.49,
     "above_200d": false,
     "max_drawdown": -58.35,
     "vol_annual": 43.3,
-    "sharpe_naive": 0.18,
-    "last": 556.39
+    "sharpe_naive": 0.24,
+    "last": 572.87
    },
    "n_obs": 731
   },
@@ -1273,16 +1273,16 @@
    "name": "XRP",
    "sector": "",
    "metrics": {
-    "ret_1m": -5.25,
-    "ret_3m": -20.9,
-    "ret_12m": -54.84,
-    "mom_12_1": -54.85,
-    "trend_200d": -27.39,
+    "ret_1m": -0.25,
+    "ret_3m": -18.45,
+    "ret_12m": -54.97,
+    "mom_12_1": -55.71,
+    "trend_200d": -23.99,
     "above_200d": false,
     "max_drawdown": -70.8,
     "vol_annual": 70.7,
-    "sharpe_naive": 0.73,
-    "last": 1.08
+    "sharpe_naive": 0.77,
+    "last": 1.13
    },
    "n_obs": 731
   },
@@ -1292,16 +1292,16 @@
    "name": "Cardano",
    "sector": "",
    "metrics": {
-    "ret_1m": -5.48,
-    "ret_3m": -34.6,
-    "ret_12m": -74.96,
-    "mom_12_1": -74.11,
-    "trend_200d": -40.7,
+    "ret_1m": 6.51,
+    "ret_3m": -27.09,
+    "ret_12m": -72.42,
+    "mom_12_1": -73.76,
+    "trend_200d": -33.12,
     "above_200d": false,
     "max_drawdown": -88.35,
-    "vol_annual": 82.3,
-    "sharpe_naive": -0.02,
-    "last": 0.16
+    "vol_annual": 82.6,
+    "sharpe_naive": 0.04,
+    "last": 0.18
    },
    "n_obs": 731
   },
@@ -1311,16 +1311,16 @@
    "name": "Dogecoin",
    "sector": "",
    "metrics": {
-    "ret_1m": -14.13,
-    "ret_3m": -30.67,
-    "ret_12m": -62.11,
-    "mom_12_1": -56.52,
-    "trend_200d": -28.83,
+    "ret_1m": -9.64,
+    "ret_3m": -28.34,
+    "ret_12m": -60.71,
+    "mom_12_1": -55.3,
+    "trend_200d": -24.93,
     "above_200d": false,
     "max_drawdown": -84.59,
     "vol_annual": 74.8,
-    "sharpe_naive": 0.13,
-    "last": 0.07
+    "sharpe_naive": 0.17,
+    "last": 0.08
    },
    "n_obs": 731
   },
@@ -1330,16 +1330,16 @@
    "name": "Avalanche",
    "sector": "",
    "metrics": {
-    "ret_1m": 2.41,
-    "ret_3m": -25.18,
-    "ret_12m": -64.47,
-    "mom_12_1": -66.32,
-    "trend_200d": -29.97,
+    "ret_1m": 5.71,
+    "ret_3m": -23.6,
+    "ret_12m": -64.4,
+    "mom_12_1": -65.96,
+    "trend_200d": -28.33,
     "above_200d": false,
     "max_drawdown": -89.05,
-    "vol_annual": 72.9,
-    "sharpe_naive": -0.31,
-    "last": 6.8
+    "vol_annual": 72.8,
+    "sharpe_naive": -0.27,
+    "last": 6.94
    },
    "n_obs": 731
   },
@@ -1349,16 +1349,16 @@
    "name": "Chainlink",
    "sector": "",
    "metrics": {
-    "ret_1m": -2.41,
-    "ret_3m": -15.51,
-    "ret_12m": -55.83,
-    "mom_12_1": -56.06,
-    "trend_200d": -21.33,
+    "ret_1m": 1.1,
+    "ret_3m": -12.66,
+    "ret_12m": -55.58,
+    "mom_12_1": -55.72,
+    "trend_200d": -18.57,
     "above_200d": false,
     "max_drawdown": -75.45,
-    "vol_annual": 73.6,
-    "sharpe_naive": 0.07,
-    "last": 7.69
+    "vol_annual": 73.5,
+    "sharpe_naive": 0.11,
+    "last": 7.94
    },
    "n_obs": 731
   },
@@ -1368,16 +1368,16 @@
    "name": "Polkadot",
    "sector": "",
    "metrics": {
-    "ret_1m": -11.94,
-    "ret_3m": -30.45,
-    "ret_12m": -72.13,
-    "mom_12_1": -68.93,
-    "trend_200d": -41.11,
+    "ret_1m": -7.67,
+    "ret_3m": -26.58,
+    "ret_12m": -71.32,
+    "mom_12_1": -68.31,
+    "trend_200d": -37.65,
     "above_200d": false,
     "max_drawdown": -92.44,
     "vol_annual": 71.6,
-    "sharpe_naive": -0.63,
-    "last": 0.84
+    "sharpe_naive": -0.58,
+    "last": 0.88
    },
    "n_obs": 731
   }
