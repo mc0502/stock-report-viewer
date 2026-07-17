@@ -1,5 +1,5 @@
 window.SITE_DATA={
- "generated": "2026-07-16",
+ "generated": "2026-07-17",
  "counts": {
   "stocks": 30,
   "etfs": 29,
@@ -644,16 +644,16 @@ window.SITE_DATA={
    "name": "S&P 500",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": -0.29,
-    "ret_3m": 7.53,
-    "ret_12m": 22.0,
-    "mom_12_1": 21.22,
-    "trend_200d": 8.33,
+    "ret_1m": -0.68,
+    "ret_3m": 6.21,
+    "ret_12m": 20.39,
+    "mom_12_1": 18.98,
+    "trend_200d": 7.19,
     "above_200d": true,
     "max_drawdown": -18.76,
     "vol_annual": 17.0,
-    "sharpe_naive": 1.04,
-    "last": 750.72
+    "sharpe_naive": 1.03,
+    "last": 743.29
    },
    "n_obs": 501
   },
@@ -663,16 +663,16 @@ window.SITE_DATA={
    "name": "S&P 500 (Vanguard)",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": -0.24,
-    "ret_3m": 7.57,
-    "ret_12m": 22.11,
-    "mom_12_1": 21.29,
-    "trend_200d": 8.37,
+    "ret_1m": -0.67,
+    "ret_3m": 6.25,
+    "ret_12m": 20.48,
+    "mom_12_1": 19.11,
+    "trend_200d": 7.21,
     "above_200d": true,
     "max_drawdown": -18.69,
-    "vol_annual": 16.4,
+    "vol_annual": 16.5,
     "sharpe_naive": 1.07,
-    "last": 690.14
+    "last": 683.17
    },
    "n_obs": 501
   },
@@ -682,16 +682,16 @@ window.SITE_DATA={
    "name": "Nasdaq 100",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": -5.01,
-    "ret_3m": 10.87,
-    "ret_12m": 27.41,
-    "mom_12_1": 31.45,
-    "trend_200d": 10.47,
+    "ret_1m": -4.63,
+    "ret_3m": 8.68,
+    "ret_12m": 25.37,
+    "mom_12_1": 29.08,
+    "trend_200d": 8.73,
     "above_200d": true,
     "max_drawdown": -22.77,
     "vol_annual": 22.3,
-    "sharpe_naive": 1.0,
-    "last": 705.94
+    "sharpe_naive": 0.97,
+    "last": 695.33
    },
    "n_obs": 501
   },
@@ -701,16 +701,16 @@ window.SITE_DATA={
    "name": "Dow 30",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 1.51,
-    "ret_3m": 8.68,
-    "ret_12m": 21.05,
-    "mom_12_1": 19.34,
-    "trend_200d": 8.31,
+    "ret_1m": 0.15,
+    "ret_3m": 7.64,
+    "ret_12m": 19.52,
+    "mom_12_1": 17.41,
+    "trend_200d": 7.41,
     "above_200d": true,
     "max_drawdown": -15.95,
     "vol_annual": 15.1,
-    "sharpe_naive": 0.99,
-    "last": 524.83
+    "sharpe_naive": 1.01,
+    "last": 520.81
    },
    "n_obs": 501
   },
@@ -720,16 +720,16 @@ window.SITE_DATA={
    "name": "Russell 2000",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.32,
-    "ret_3m": 9.99,
-    "ret_12m": 36.49,
-    "mom_12_1": 33.52,
-    "trend_200d": 12.76,
+    "ret_1m": 0.67,
+    "ret_3m": 9.18,
+    "ret_12m": 34.42,
+    "mom_12_1": 30.8,
+    "trend_200d": 12.05,
     "above_200d": true,
     "max_drawdown": -27.5,
     "vol_annual": 21.9,
-    "sharpe_naive": 0.81,
-    "last": 295.59
+    "sharpe_naive": 0.85,
+    "last": 294.04
    },
    "n_obs": 501
   },
@@ -739,16 +739,16 @@ window.SITE_DATA={
    "name": "Total US Market",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": -0.24,
-    "ret_3m": 7.65,
-    "ret_12m": 22.48,
-    "mom_12_1": 21.6,
-    "trend_200d": 8.53,
+    "ret_1m": -0.62,
+    "ret_3m": 6.37,
+    "ret_12m": 20.84,
+    "mom_12_1": 19.31,
+    "trend_200d": 7.42,
     "above_200d": true,
     "max_drawdown": -19.3,
     "vol_annual": 17.1,
-    "sharpe_naive": 1.04,
-    "last": 370.58
+    "sharpe_naive": 1.03,
+    "last": 367.01
    },
    "n_obs": 501
   },
@@ -758,16 +758,16 @@ window.SITE_DATA={
    "name": "Technology",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -7.33,
-    "ret_3m": 18.25,
-    "ret_12m": 38.38,
-    "mom_12_1": 44.71,
-    "trend_200d": 15.83,
+    "ret_1m": -5.71,
+    "ret_3m": 15.64,
+    "ret_12m": 36.46,
+    "mom_12_1": 42.92,
+    "trend_200d": 14.44,
     "above_200d": true,
     "max_drawdown": -25.66,
     "vol_annual": 27.4,
-    "sharpe_naive": 1.0,
-    "last": 177.52
+    "sharpe_naive": 0.98,
+    "last": 175.59
    },
    "n_obs": 501
   },
@@ -777,16 +777,16 @@ window.SITE_DATA={
    "name": "Financials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 6.33,
-    "ret_3m": 9.16,
-    "ret_12m": 11.58,
-    "mom_12_1": 5.75,
-    "trend_200d": 8.54,
+    "ret_1m": 3.88,
+    "ret_3m": 8.51,
+    "ret_12m": 9.85,
+    "mom_12_1": 4.17,
+    "trend_200d": 7.57,
     "above_200d": true,
     "max_drawdown": -15.54,
     "vol_annual": 17.8,
-    "sharpe_naive": 0.91,
-    "last": 56.75
+    "sharpe_naive": 0.92,
+    "last": 56.26
    },
    "n_obs": 501
   },
@@ -796,16 +796,16 @@ window.SITE_DATA={
    "name": "Energy",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 3.39,
-    "ret_3m": 3.0,
-    "ret_12m": 35.35,
-    "mom_12_1": 31.61,
-    "trend_200d": 11.4,
+    "ret_1m": 4.94,
+    "ret_3m": 2.68,
+    "ret_12m": 38.11,
+    "mom_12_1": 29.17,
+    "trend_200d": 12.54,
     "above_200d": true,
     "max_drawdown": -20.14,
     "vol_annual": 23.4,
-    "sharpe_naive": 0.69,
-    "last": 57.02
+    "sharpe_naive": 0.71,
+    "last": 57.68
    },
    "n_obs": 501
   },
@@ -815,16 +815,16 @@ window.SITE_DATA={
    "name": "Health Care",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 6.29,
-    "ret_3m": 9.98,
-    "ret_12m": 24.15,
-    "mom_12_1": 15.4,
-    "trend_200d": 7.74,
+    "ret_1m": 5.79,
+    "ret_3m": 10.36,
+    "ret_12m": 22.09,
+    "mom_12_1": 15.03,
+    "trend_200d": 7.17,
     "above_200d": true,
     "max_drawdown": -17.11,
-    "vol_annual": 16.1,
-    "sharpe_naive": 0.41,
-    "last": 161.8
+    "vol_annual": 16.0,
+    "sharpe_naive": 0.47,
+    "last": 161.09
    },
    "n_obs": 501
   },
@@ -834,16 +834,16 @@ window.SITE_DATA={
    "name": "Industrials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 1.07,
-    "ret_3m": 5.5,
-    "ret_12m": 21.75,
-    "mom_12_1": 20.82,
-    "trend_200d": 9.15,
+    "ret_1m": 0.0,
+    "ret_3m": 5.59,
+    "ret_12m": 20.82,
+    "mom_12_1": 19.54,
+    "trend_200d": 8.61,
     "above_200d": true,
     "max_drawdown": -18.49,
     "vol_annual": 18.3,
-    "sharpe_naive": 1.14,
-    "last": 180.15
+    "sharpe_naive": 1.15,
+    "last": 179.41
    },
    "n_obs": 501
   },
@@ -853,16 +853,16 @@ window.SITE_DATA={
    "name": "Consumer Disc.",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -0.84,
-    "ret_3m": -0.51,
-    "ret_12m": 7.96,
-    "mom_12_1": 8.57,
-    "trend_200d": 0.31,
-    "above_200d": true,
+    "ret_1m": -2.36,
+    "ret_3m": -1.67,
+    "ret_12m": 6.02,
+    "mom_12_1": 5.49,
+    "trend_200d": -1.3,
+    "above_200d": false,
     "max_drawdown": -26.01,
     "vol_annual": 22.6,
-    "sharpe_naive": 0.6,
-    "last": 117.34
+    "sharpe_naive": 0.59,
+    "last": 115.44
    },
    "n_obs": 501
   },
@@ -872,16 +872,16 @@ window.SITE_DATA={
    "name": "Consumer Staples",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 1.08,
-    "ret_3m": 6.59,
-    "ret_12m": 10.14,
-    "mom_12_1": 8.72,
-    "trend_200d": 5.93,
+    "ret_1m": 0.22,
+    "ret_3m": 5.34,
+    "ret_12m": 8.96,
+    "mom_12_1": 5.3,
+    "trend_200d": 5.11,
     "above_200d": true,
     "max_drawdown": -9.69,
     "vol_annual": 13.6,
-    "sharpe_naive": 0.58,
-    "last": 85.81
+    "sharpe_naive": 0.57,
+    "last": 85.19
    },
    "n_obs": 501
   },
@@ -891,16 +891,16 @@ window.SITE_DATA={
    "name": "Utilities",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 2.28,
-    "ret_3m": -0.56,
-    "ret_12m": 14.01,
-    "mom_12_1": 12.21,
-    "trend_200d": 2.67,
+    "ret_1m": 0.88,
+    "ret_3m": -1.92,
+    "ret_12m": 13.2,
+    "mom_12_1": 10.26,
+    "trend_200d": 1.96,
     "above_200d": true,
     "max_drawdown": -10.5,
     "vol_annual": 16.0,
-    "sharpe_naive": 1.08,
-    "last": 45.47
+    "sharpe_naive": 1.06,
+    "last": 45.17
    },
    "n_obs": 501
   },
@@ -910,16 +910,16 @@ window.SITE_DATA={
    "name": "Materials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -2.7,
-    "ret_3m": -0.58,
-    "ret_12m": 16.26,
-    "mom_12_1": 19.67,
-    "trend_200d": 5.5,
+    "ret_1m": -3.8,
+    "ret_3m": -1.99,
+    "ret_12m": 15.13,
+    "mom_12_1": 17.25,
+    "trend_200d": 4.69,
     "above_200d": true,
     "max_drawdown": -23.17,
     "vol_annual": 18.7,
-    "sharpe_naive": 0.47,
-    "last": 50.89
+    "sharpe_naive": 0.48,
+    "last": 50.53
    },
    "n_obs": 501
   },
@@ -929,16 +929,16 @@ window.SITE_DATA={
    "name": "Real Estate",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 1.93,
-    "ret_3m": 5.64,
-    "ret_12m": 13.84,
-    "mom_12_1": 10.75,
-    "trend_200d": 8.69,
+    "ret_1m": 1.59,
+    "ret_3m": 4.58,
+    "ret_12m": 12.51,
+    "mom_12_1": 8.08,
+    "trend_200d": 8.53,
     "above_200d": true,
     "max_drawdown": -16.57,
-    "vol_annual": 16.3,
-    "sharpe_naive": 0.62,
-    "last": 45.46
+    "vol_annual": 16.2,
+    "sharpe_naive": 0.64,
+    "last": 45.42
    },
    "n_obs": 501
   },
@@ -948,16 +948,16 @@ window.SITE_DATA={
    "name": "Semiconductors",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -12.08,
-    "ret_3m": 25.59,
-    "ret_12m": 96.25,
-    "mom_12_1": 113.61,
-    "trend_200d": 29.82,
+    "ret_1m": -9.65,
+    "ret_3m": 22.37,
+    "ret_12m": 92.98,
+    "mom_12_1": 114.57,
+    "trend_200d": 26.65,
     "above_200d": true,
     "max_drawdown": -32.65,
-    "vol_annual": 39.7,
-    "sharpe_naive": 1.23,
-    "last": 568.92
+    "vol_annual": 39.8,
+    "sharpe_naive": 1.2,
+    "last": 556.53
    },
    "n_obs": 501
   },
@@ -967,16 +967,16 @@ window.SITE_DATA={
    "name": "ARK Innovation",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -3.72,
-    "ret_3m": -1.03,
-    "ret_12m": 5.62,
-    "mom_12_1": 5.09,
-    "trend_200d": -1.86,
+    "ret_1m": -4.91,
+    "ret_3m": -2.77,
+    "ret_12m": -0.07,
+    "mom_12_1": 2.95,
+    "trend_200d": -3.67,
     "above_200d": false,
     "max_drawdown": -39.56,
-    "vol_annual": 41.7,
-    "sharpe_naive": 0.76,
-    "last": 76.67
+    "vol_annual": 41.6,
+    "sharpe_naive": 0.79,
+    "last": 75.2
    },
    "n_obs": 501
   },
@@ -986,16 +986,16 @@ window.SITE_DATA={
    "name": "Clean Energy",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -12.74,
-    "ret_3m": -5.79,
-    "ret_12m": 37.35,
-    "mom_12_1": 56.3,
-    "trend_200d": -0.56,
+    "ret_1m": -11.77,
+    "ret_3m": -4.81,
+    "ret_12m": 37.91,
+    "mom_12_1": 53.98,
+    "trend_200d": -0.53,
     "above_200d": false,
     "max_drawdown": -27.81,
     "vol_annual": 26.5,
-    "sharpe_naive": 0.73,
-    "last": 18.35
+    "sharpe_naive": 0.74,
+    "last": 18.37
    },
    "n_obs": 501
   },
@@ -1005,16 +1005,16 @@ window.SITE_DATA={
    "name": "Biotech",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": 10.07,
-    "ret_3m": 7.7,
-    "ret_12m": 47.22,
-    "mom_12_1": 31.02,
-    "trend_200d": 11.92,
+    "ret_1m": 10.69,
+    "ret_3m": 9.0,
+    "ret_12m": 45.02,
+    "mom_12_1": 31.99,
+    "trend_200d": 11.91,
     "above_200d": true,
     "max_drawdown": -24.85,
-    "vol_annual": 21.9,
-    "sharpe_naive": 0.72,
-    "last": 189.51
+    "vol_annual": 21.8,
+    "sharpe_naive": 0.76,
+    "last": 189.76
    },
    "n_obs": 501
   },
@@ -1024,16 +1024,16 @@ window.SITE_DATA={
    "name": "Developed ex-US",
    "sector": "International",
    "metrics": {
-    "ret_1m": -0.26,
-    "ret_3m": 2.07,
-    "ret_12m": 21.98,
-    "mom_12_1": 22.06,
-    "trend_200d": 6.39,
+    "ret_1m": -0.94,
+    "ret_3m": 1.9,
+    "ret_12m": 20.92,
+    "mom_12_1": 21.13,
+    "trend_200d": 5.82,
     "above_200d": true,
     "max_drawdown": -14.05,
     "vol_annual": 16.7,
-    "sharpe_naive": 1.04,
-    "last": 103.81
+    "sharpe_naive": 1.05,
+    "last": 103.33
    },
    "n_obs": 501
   },
@@ -1043,16 +1043,16 @@ window.SITE_DATA={
    "name": "Emerging Markets",
    "sector": "International",
    "metrics": {
-    "ret_1m": -7.97,
-    "ret_3m": 3.74,
-    "ret_12m": 34.44,
-    "mom_12_1": 43.09,
-    "trend_200d": 8.3,
+    "ret_1m": -7.79,
+    "ret_3m": 1.87,
+    "ret_12m": 31.93,
+    "mom_12_1": 42.11,
+    "trend_200d": 6.69,
     "above_200d": true,
     "max_drawdown": -17.29,
     "vol_annual": 21.7,
-    "sharpe_naive": 1.12,
-    "last": 64.19
+    "sharpe_naive": 1.1,
+    "last": 63.29
    },
    "n_obs": 501
   },
@@ -1062,16 +1062,16 @@ window.SITE_DATA={
    "name": "Emerging (Vanguard)",
    "sector": "International",
    "metrics": {
-    "ret_1m": -3.17,
-    "ret_3m": 1.41,
-    "ret_12m": 20.73,
-    "mom_12_1": 22.73,
-    "trend_200d": 4.84,
+    "ret_1m": -3.74,
+    "ret_3m": -0.52,
+    "ret_12m": 18.14,
+    "mom_12_1": 21.27,
+    "trend_200d": 3.01,
     "above_200d": true,
     "max_drawdown": -17.37,
-    "vol_annual": 17.9,
-    "sharpe_naive": 1.02,
-    "last": 58.84
+    "vol_annual": 18.0,
+    "sharpe_naive": 0.99,
+    "last": 57.84
    },
    "n_obs": 501
   },
@@ -1081,16 +1081,16 @@ window.SITE_DATA={
    "name": "China Large-Cap",
    "sector": "International",
    "metrics": {
-    "ret_1m": -1.65,
-    "ret_3m": -5.67,
-    "ret_12m": -6.57,
-    "mom_12_1": -6.06,
-    "trend_200d": -7.22,
+    "ret_1m": -1.24,
+    "ret_3m": -7.64,
+    "ret_12m": -7.23,
+    "mom_12_1": -8.83,
+    "trend_200d": -8.22,
     "above_200d": false,
     "max_drawdown": -23.24,
     "vol_annual": 28.4,
     "sharpe_naive": 0.71,
-    "last": 34.53
+    "last": 34.13
    },
    "n_obs": 501
   },
@@ -1100,16 +1100,16 @@ window.SITE_DATA={
    "name": "Gold",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -7.97,
-    "ret_3m": -17.14,
-    "ret_12m": 18.98,
-    "mom_12_1": 28.99,
-    "trend_200d": -11.27,
+    "ret_1m": -7.35,
+    "ret_3m": -16.29,
+    "ret_12m": 19.51,
+    "mom_12_1": 26.34,
+    "trend_200d": -10.45,
     "above_200d": false,
     "max_drawdown": -26.4,
     "vol_annual": 23.4,
-    "sharpe_naive": 1.14,
-    "last": 364.96
+    "sharpe_naive": 1.17,
+    "last": 368.41
    },
    "n_obs": 501
   },
@@ -1119,16 +1119,16 @@ window.SITE_DATA={
    "name": "Silver",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -20.61,
-    "ret_3m": -29.86,
-    "ret_12m": 47.08,
-    "mom_12_1": 84.22,
-    "trend_200d": -20.16,
+    "ret_1m": -19.89,
+    "ret_3m": -28.72,
+    "ret_12m": 47.57,
+    "mom_12_1": 74.92,
+    "trend_200d": -19.59,
     "above_200d": false,
     "max_drawdown": -52.28,
     "vol_annual": 47.6,
-    "sharpe_naive": 0.88,
-    "last": 50.39
+    "sharpe_naive": 0.91,
+    "last": 50.78
    },
    "n_obs": 501
   },
@@ -1138,16 +1138,16 @@ window.SITE_DATA={
    "name": "20+yr Treasuries",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -1.4,
-    "ret_3m": -1.92,
-    "ret_12m": 3.57,
-    "mom_12_1": 5.47,
-    "trend_200d": -2.12,
+    "ret_1m": -1.58,
+    "ret_3m": -0.93,
+    "ret_12m": 3.81,
+    "mom_12_1": 5.67,
+    "trend_200d": -1.75,
     "above_200d": false,
     "max_drawdown": -14.79,
     "vol_annual": 11.9,
-    "sharpe_naive": -0.05,
-    "last": 84.21
+    "sharpe_naive": -0.0,
+    "last": 84.52
    },
    "n_obs": 501
   },
@@ -1157,16 +1157,16 @@ window.SITE_DATA={
    "name": "High-Yield Bonds",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": 0.16,
-    "ret_3m": 0.67,
-    "ret_12m": 5.97,
-    "mom_12_1": 5.5,
-    "trend_200d": 1.7,
+    "ret_1m": -0.01,
+    "ret_3m": 0.62,
+    "ret_12m": 5.49,
+    "mom_12_1": 5.0,
+    "trend_200d": 1.49,
     "above_200d": true,
     "max_drawdown": -4.56,
     "vol_annual": 4.8,
     "sharpe_naive": 1.45,
-    "last": 79.8
+    "last": 79.65
    },
    "n_obs": 501
   },
@@ -1176,16 +1176,16 @@ window.SITE_DATA={
    "name": "US Agg Bonds",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -0.4,
-    "ret_3m": -0.5,
-    "ret_12m": 4.44,
-    "mom_12_1": 4.83,
-    "trend_200d": -0.01,
-    "above_200d": false,
+    "ret_1m": -0.45,
+    "ret_3m": -0.29,
+    "ret_12m": 4.36,
+    "mom_12_1": 4.4,
+    "trend_200d": 0.06,
+    "above_200d": true,
     "max_drawdown": -4.82,
     "vol_annual": 4.6,
-    "sharpe_naive": 0.84,
-    "last": 98.13
+    "sharpe_naive": 0.88,
+    "last": 98.2
    },
    "n_obs": 501
   }
@@ -1197,16 +1197,16 @@ window.SITE_DATA={
    "name": "Bitcoin",
    "sector": "",
    "metrics": {
-    "ret_1m": 7.01,
-    "ret_3m": -21.15,
-    "ret_12m": -36.91,
-    "mom_12_1": -41.94,
-    "trend_200d": -12.92,
+    "ret_1m": 6.5,
+    "ret_3m": -19.16,
+    "ret_12m": -38.17,
+    "mom_12_1": -41.4,
+    "trend_200d": -12.78,
     "above_200d": false,
     "max_drawdown": -53.06,
-    "vol_annual": 38.4,
-    "sharpe_naive": 0.17,
-    "last": 63910.62
+    "vol_annual": 38.3,
+    "sharpe_naive": 0.19,
+    "last": 63915.36
    },
    "n_obs": 731
   },
@@ -1216,16 +1216,16 @@ window.SITE_DATA={
    "name": "Ethereum",
    "sector": "",
    "metrics": {
-    "ret_1m": 19.4,
-    "ret_3m": -18.08,
-    "ret_12m": -43.59,
-    "mom_12_1": -54.11,
-    "trend_200d": -15.08,
+    "ret_1m": 16.5,
+    "ret_3m": -17.39,
+    "ret_12m": -46.53,
+    "mom_12_1": -53.78,
+    "trend_200d": -16.31,
     "above_200d": false,
     "max_drawdown": -67.61,
     "vol_annual": 58.7,
     "sharpe_naive": -0.07,
-    "last": 1868.44
+    "last": 1836.8
    },
    "n_obs": 731
   },
@@ -1235,16 +1235,16 @@ window.SITE_DATA={
    "name": "Solana",
    "sector": "",
    "metrics": {
-    "ret_1m": 11.49,
-    "ret_3m": -18.24,
-    "ret_12m": -51.41,
-    "mom_12_1": -55.58,
-    "trend_200d": -17.03,
+    "ret_1m": 4.29,
+    "ret_3m": -16.01,
+    "ret_12m": -53.67,
+    "mom_12_1": -55.47,
+    "trend_200d": -17.28,
     "above_200d": false,
     "max_drawdown": -76.25,
     "vol_annual": 65.3,
-    "sharpe_naive": -0.07,
-    "last": 75.34
+    "sharpe_naive": -0.06,
+    "last": 74.92
    },
    "n_obs": 731
   },
@@ -1254,16 +1254,16 @@ window.SITE_DATA={
    "name": "BNB",
    "sector": "",
    "metrics": {
-    "ret_1m": 2.49,
-    "ret_3m": -15.37,
-    "ret_12m": -39.55,
-    "mom_12_1": -42.77,
-    "trend_200d": -14.15,
+    "ret_1m": 0.01,
+    "ret_3m": -15.65,
+    "ret_12m": -42.77,
+    "mom_12_1": -43.81,
+    "trend_200d": -14.99,
     "above_200d": false,
     "max_drawdown": -58.35,
     "vol_annual": 42.4,
     "sharpe_naive": 0.21,
-    "last": 573.75
+    "last": 566.92
    },
    "n_obs": 731
   },
@@ -1273,15 +1273,15 @@ window.SITE_DATA={
    "name": "XRP",
    "sector": "",
    "metrics": {
-    "ret_1m": 4.58,
-    "ret_3m": -26.6,
-    "ret_12m": -50.72,
-    "mom_12_1": -54.75,
-    "trend_200d": -24.12,
+    "ret_1m": 3.81,
+    "ret_3m": -24.18,
+    "ret_12m": -53.03,
+    "mom_12_1": -54.2,
+    "trend_200d": -24.09,
     "above_200d": false,
     "max_drawdown": -70.8,
-    "vol_annual": 70.0,
-    "sharpe_naive": 0.65,
+    "vol_annual": 69.8,
+    "sharpe_naive": 0.61,
     "last": 1.09
    },
    "n_obs": 731
@@ -1292,16 +1292,16 @@ window.SITE_DATA={
    "name": "Cardano",
    "sector": "",
    "metrics": {
-    "ret_1m": 11.97,
-    "ret_3m": -40.55,
-    "ret_12m": -69.75,
-    "mom_12_1": -74.27,
-    "trend_200d": -37.72,
+    "ret_1m": 11.8,
+    "ret_3m": -36.63,
+    "ret_12m": -71.23,
+    "mom_12_1": -74.47,
+    "trend_200d": -35.51,
     "above_200d": false,
     "max_drawdown": -88.35,
     "vol_annual": 82.2,
-    "sharpe_naive": -0.04,
-    "last": 0.16
+    "sharpe_naive": -0.03,
+    "last": 0.17
    },
    "n_obs": 731
   },
@@ -1311,15 +1311,15 @@ window.SITE_DATA={
    "name": "Dogecoin",
    "sector": "",
    "metrics": {
-    "ret_1m": -2.87,
-    "ret_3m": -36.99,
-    "ret_12m": -55.0,
-    "mom_12_1": -57.65,
-    "trend_200d": -27.36,
+    "ret_1m": -4.28,
+    "ret_3m": -36.11,
+    "ret_12m": -59.47,
+    "mom_12_1": -57.75,
+    "trend_200d": -27.4,
     "above_200d": false,
     "max_drawdown": -84.62,
     "vol_annual": 74.0,
-    "sharpe_naive": 0.11,
+    "sharpe_naive": 0.12,
     "last": 0.07
    },
    "n_obs": 731
@@ -1330,15 +1330,15 @@ window.SITE_DATA={
    "name": "Avalanche",
    "sector": "",
    "metrics": {
-    "ret_1m": 5.27,
-    "ret_3m": -33.82,
-    "ret_12m": -59.32,
-    "mom_12_1": -62.83,
-    "trend_200d": -29.75,
+    "ret_1m": -0.46,
+    "ret_3m": -31.32,
+    "ret_12m": -63.0,
+    "mom_12_1": -63.23,
+    "trend_200d": -29.53,
     "above_200d": false,
     "max_drawdown": -89.05,
     "vol_annual": 72.3,
-    "sharpe_naive": -0.33,
+    "sharpe_naive": -0.32,
     "last": 6.55
    },
    "n_obs": 731
@@ -1349,16 +1349,16 @@ window.SITE_DATA={
    "name": "Chainlink",
    "sector": "",
    "metrics": {
-    "ret_1m": 15.74,
-    "ret_3m": -20.07,
-    "ret_12m": -43.12,
-    "mom_12_1": -53.44,
-    "trend_200d": -11.6,
+    "ret_1m": 12.06,
+    "ret_3m": -18.27,
+    "ret_12m": -47.83,
+    "mom_12_1": -53.02,
+    "trend_200d": -12.93,
     "above_200d": false,
     "max_drawdown": -75.45,
     "vol_annual": 73.0,
-    "sharpe_naive": 0.11,
-    "last": 8.37
+    "sharpe_naive": 0.12,
+    "last": 8.23
    },
    "n_obs": 731
   },
@@ -1368,16 +1368,16 @@ window.SITE_DATA={
    "name": "Polkadot",
    "sector": "",
    "metrics": {
-    "ret_1m": 1.57,
-    "ret_3m": -37.27,
-    "ret_12m": -67.9,
-    "mom_12_1": -73.76,
-    "trend_200d": -36.89,
+    "ret_1m": -0.31,
+    "ret_3m": -35.63,
+    "ret_12m": -73.84,
+    "mom_12_1": -74.92,
+    "trend_200d": -37.18,
     "above_200d": false,
     "max_drawdown": -92.44,
     "vol_annual": 71.1,
     "sharpe_naive": -0.62,
-    "last": 0.86
+    "last": 0.85
    },
    "n_obs": 731
   }
