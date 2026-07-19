@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-17",
+ "generated": "2026-07-19",
  "counts": {
-  "stocks": 30,
+  "stocks": 35,
   "etfs": 29,
   "crypto": 10
  },
@@ -242,20 +242,20 @@
    "ticker": "ILMN",
    "name": "ILMN",
    "sector": "Biotech / Genomics",
-   "inv_score": 48,
-   "label": "Hold",
-   "signal_score": 57,
-   "last_date": "2026-04-06",
-   "n_signals": 3,
+   "inv_score": 68,
+   "label": "Buy",
+   "signal_score": 69,
+   "last_date": "2026-07-19",
+   "n_signals": 4,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -7.7,
-   "regime": "unknown",
+   "regime": "Bull",
    "layer": {
-    "l1_tech": 57.0,
-    "l2_graph": 45.0,
-    "l3_news": 53.0,
-    "l4_fa": 58.0,
-    "macro": 30.0
+    "l1_tech": 69.0,
+    "l2_graph": 51.0,
+    "l3_news": 50.0,
+    "l4_fa": 85.0,
+    "macro": 40.0
    }
   },
   {
@@ -344,6 +344,27 @@
   },
   {
    "asset": "stock",
+   "ticker": "MA",
+   "name": "MA",
+   "sector": "Fintech & Payments",
+   "inv_score": 72,
+   "label": "Buy",
+   "signal_score": 72,
+   "last_date": "2026-07-19",
+   "n_signals": 6,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": 23.3,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 72.0,
+    "l2_graph": 66.0,
+    "l3_news": 51.0,
+    "l4_fa": 70.0,
+    "macro": 40.0
+   }
+  },
+  {
+   "asset": "stock",
    "ticker": "MP",
    "name": "MP",
    "sector": "Critical Minerals",
@@ -428,6 +449,27 @@
   },
   {
    "asset": "stock",
+   "ticker": "NVO",
+   "name": "NVO",
+   "sector": "GLP-1 & Healthcare",
+   "inv_score": 74,
+   "label": "Buy",
+   "signal_score": 73,
+   "last_date": "2026-07-19",
+   "n_signals": 1,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": null,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 73.0,
+    "l2_graph": 73.0,
+    "l3_news": 51.0,
+    "l4_fa": 76.0,
+    "macro": 55.0
+   }
+  },
+  {
+   "asset": "stock",
    "ticker": "OKTA",
    "name": "OKTA",
    "sector": "Cybersecurity",
@@ -444,6 +486,27 @@
     "l2_graph": 46.0,
     "l3_news": 52.0,
     "l4_fa": 59.0,
+    "macro": 40.0
+   }
+  },
+  {
+   "asset": "stock",
+   "ticker": "PANW",
+   "name": "PANW",
+   "sector": "Cybersecurity",
+   "inv_score": 63,
+   "label": "Accumulate",
+   "signal_score": 73,
+   "last_date": "2026-07-19",
+   "n_signals": 8,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": -29.0,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 73.0,
+    "l2_graph": 51.0,
+    "l3_news": 54.0,
+    "l4_fa": 23.0,
     "macro": 40.0
    }
   },
@@ -596,6 +659,27 @@
   },
   {
    "asset": "stock",
+   "ticker": "V",
+   "name": "V",
+   "sector": "Fintech & Payments",
+   "inv_score": 68,
+   "label": "Buy",
+   "signal_score": 72,
+   "last_date": "2026-07-19",
+   "n_signals": 4,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": 30.0,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 72.0,
+    "l2_graph": 50.0,
+    "l3_news": 48.0,
+    "l4_fa": 70.0,
+    "macro": 40.0
+   }
+  },
+  {
+   "asset": "stock",
    "ticker": "VALE",
    "name": "VALE",
    "sector": "Emerging Markets",
@@ -613,6 +697,27 @@
     "l3_news": 50.0,
     "l4_fa": 89.0,
     "macro": 55.0
+   }
+  },
+  {
+   "asset": "stock",
+   "ticker": "VRTX",
+   "name": "VRTX",
+   "sector": "Biotech / Genomics",
+   "inv_score": 77,
+   "label": "Buy",
+   "signal_score": 73,
+   "last_date": "2026-07-19",
+   "n_signals": 3,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": null,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 73.0,
+    "l2_graph": 71.0,
+    "l3_news": 52.0,
+    "l4_fa": 100.0,
+    "macro": 40.0
    }
   },
   {
@@ -701,11 +806,11 @@
    "name": "Dow 30",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.15,
-    "ret_3m": 7.64,
-    "ret_12m": 19.52,
+    "ret_1m": 0.18,
+    "ret_3m": 7.67,
+    "ret_12m": 19.56,
     "mom_12_1": 17.41,
-    "trend_200d": 7.41,
+    "trend_200d": 7.44,
     "above_200d": true,
     "max_drawdown": -15.95,
     "vol_annual": 15.1,
@@ -1197,16 +1302,16 @@
    "name": "Bitcoin",
    "sector": "",
    "metrics": {
-    "ret_1m": 6.5,
-    "ret_3m": -19.16,
-    "ret_12m": -38.17,
-    "mom_12_1": -41.4,
-    "trend_200d": -12.78,
+    "ret_1m": 8.18,
+    "ret_3m": -16.83,
+    "ret_12m": -38.5,
+    "mom_12_1": -43.26,
+    "trend_200d": -11.83,
     "above_200d": false,
     "max_drawdown": -53.06,
     "vol_annual": 38.3,
-    "sharpe_naive": 0.19,
-    "last": 63915.36
+    "sharpe_naive": 0.16,
+    "last": 64400.84
    },
    "n_obs": 731
   },
@@ -1216,16 +1321,16 @@
    "name": "Ethereum",
    "sector": "",
    "metrics": {
-    "ret_1m": 16.5,
-    "ret_3m": -17.39,
-    "ret_12m": -46.53,
-    "mom_12_1": -53.78,
-    "trend_200d": -16.31,
+    "ret_1m": 18.44,
+    "ret_3m": -12.58,
+    "ret_12m": -48.08,
+    "mom_12_1": -54.88,
+    "trend_200d": -14.82,
     "above_200d": false,
     "max_drawdown": -67.61,
     "vol_annual": 58.7,
-    "sharpe_naive": -0.07,
-    "last": 1836.8
+    "sharpe_naive": -0.08,
+    "last": 1859.96
    },
    "n_obs": 731
   },
@@ -1235,16 +1340,16 @@
    "name": "Solana",
    "sector": "",
    "metrics": {
-    "ret_1m": 4.29,
-    "ret_3m": -16.01,
-    "ret_12m": -53.67,
-    "mom_12_1": -55.47,
-    "trend_200d": -17.28,
+    "ret_1m": 6.14,
+    "ret_3m": -11.13,
+    "ret_12m": -53.97,
+    "mom_12_1": -55.22,
+    "trend_200d": -15.97,
     "above_200d": false,
     "max_drawdown": -76.25,
-    "vol_annual": 65.3,
-    "sharpe_naive": -0.06,
-    "last": 74.92
+    "vol_annual": 65.2,
+    "sharpe_naive": -0.1,
+    "last": 75.69
    },
    "n_obs": 731
   },
@@ -1254,16 +1359,16 @@
    "name": "BNB",
    "sector": "",
    "metrics": {
-    "ret_1m": 0.01,
-    "ret_3m": -15.65,
-    "ret_12m": -42.77,
-    "mom_12_1": -43.81,
-    "trend_200d": -14.99,
+    "ret_1m": 2.96,
+    "ret_3m": -12.61,
+    "ret_12m": -43.11,
+    "mom_12_1": -43.68,
+    "trend_200d": -14.6,
     "above_200d": false,
     "max_drawdown": -58.35,
     "vol_annual": 42.4,
-    "sharpe_naive": 0.21,
-    "last": 566.92
+    "sharpe_naive": 0.17,
+    "last": 566.99
    },
    "n_obs": 731
   },
@@ -1273,15 +1378,15 @@
    "name": "XRP",
    "sector": "",
    "metrics": {
-    "ret_1m": 3.81,
-    "ret_3m": -24.18,
-    "ret_12m": -53.03,
-    "mom_12_1": -54.2,
-    "trend_200d": -24.09,
+    "ret_1m": 4.23,
+    "ret_3m": -22.06,
+    "ret_12m": -53.88,
+    "mom_12_1": -58.15,
+    "trend_200d": -23.34,
     "above_200d": false,
     "max_drawdown": -70.8,
-    "vol_annual": 69.8,
-    "sharpe_naive": 0.61,
+    "vol_annual": 69.6,
+    "sharpe_naive": 0.66,
     "last": 1.09
    },
    "n_obs": 731
@@ -1292,14 +1397,14 @@
    "name": "Cardano",
    "sector": "",
    "metrics": {
-    "ret_1m": 11.8,
-    "ret_3m": -36.63,
-    "ret_12m": -71.23,
-    "mom_12_1": -74.47,
-    "trend_200d": -35.51,
+    "ret_1m": 14.85,
+    "ret_3m": -34.49,
+    "ret_12m": -71.48,
+    "mom_12_1": -75.45,
+    "trend_200d": -35.34,
     "above_200d": false,
     "max_drawdown": -88.35,
-    "vol_annual": 82.2,
+    "vol_annual": 82.1,
     "sharpe_naive": -0.03,
     "last": 0.17
    },
@@ -1311,15 +1416,15 @@
    "name": "Dogecoin",
    "sector": "",
    "metrics": {
-    "ret_1m": -4.28,
-    "ret_3m": -36.11,
-    "ret_12m": -59.47,
-    "mom_12_1": -57.75,
-    "trend_200d": -27.4,
+    "ret_1m": -1.41,
+    "ret_3m": -33.75,
+    "ret_12m": -59.8,
+    "mom_12_1": -59.69,
+    "trend_200d": -27.41,
     "above_200d": false,
     "max_drawdown": -84.62,
-    "vol_annual": 74.0,
-    "sharpe_naive": 0.12,
+    "vol_annual": 73.9,
+    "sharpe_naive": 0.11,
     "last": 0.07
    },
    "n_obs": 731
@@ -1330,16 +1435,16 @@
    "name": "Avalanche",
    "sector": "",
    "metrics": {
-    "ret_1m": -0.46,
-    "ret_3m": -31.32,
-    "ret_12m": -63.0,
-    "mom_12_1": -63.23,
-    "trend_200d": -29.53,
+    "ret_1m": -0.2,
+    "ret_3m": -29.96,
+    "ret_12m": -63.83,
+    "mom_12_1": -63.32,
+    "trend_200d": -30.37,
     "above_200d": false,
     "max_drawdown": -89.05,
     "vol_annual": 72.3,
-    "sharpe_naive": -0.32,
-    "last": 6.55
+    "sharpe_naive": -0.34,
+    "last": 6.43
    },
    "n_obs": 731
   },
@@ -1349,16 +1454,16 @@
    "name": "Chainlink",
    "sector": "",
    "metrics": {
-    "ret_1m": 12.06,
-    "ret_3m": -18.27,
-    "ret_12m": -47.83,
-    "mom_12_1": -53.02,
-    "trend_200d": -12.93,
+    "ret_1m": 14.52,
+    "ret_3m": -12.98,
+    "ret_12m": -47.8,
+    "mom_12_1": -54.91,
+    "trend_200d": -11.64,
     "above_200d": false,
     "max_drawdown": -75.45,
     "vol_annual": 73.0,
-    "sharpe_naive": 0.12,
-    "last": 8.23
+    "sharpe_naive": 0.11,
+    "last": 8.31
    },
    "n_obs": 731
   },
@@ -1368,16 +1473,16 @@
    "name": "Polkadot",
    "sector": "",
    "metrics": {
-    "ret_1m": -0.31,
-    "ret_3m": -35.63,
-    "ret_12m": -73.84,
-    "mom_12_1": -74.92,
-    "trend_200d": -37.18,
+    "ret_1m": 0.67,
+    "ret_3m": -34.72,
+    "ret_12m": -74.79,
+    "mom_12_1": -74.74,
+    "trend_200d": -39.18,
     "above_200d": false,
     "max_drawdown": -92.44,
     "vol_annual": 71.1,
-    "sharpe_naive": -0.62,
-    "last": 0.85
+    "sharpe_naive": -0.64,
+    "last": 0.81
    },
    "n_obs": 731
   }
