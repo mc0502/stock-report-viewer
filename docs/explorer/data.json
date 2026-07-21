@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-20",
+ "generated": "2026-07-21",
  "counts": {
   "stocks": 30,
   "etfs": 29,
@@ -410,20 +410,20 @@
    "ticker": "NU",
    "name": "NU",
    "sector": "Emerging Markets",
-   "inv_score": 43,
-   "label": "Watch",
-   "signal_score": 45,
-   "last_date": "2026-03-23",
-   "n_signals": 1,
+   "inv_score": 63,
+   "label": "Accumulate",
+   "signal_score": 72,
+   "last_date": "2026-07-21",
+   "n_signals": 2,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -18.1,
-   "regime": "unknown",
+   "regime": "Bull",
    "layer": {
-    "l1_tech": 45.0,
-    "l2_graph": 60.0,
+    "l1_tech": 72.0,
+    "l2_graph": 47.0,
     "l3_news": 51.0,
     "l4_fa": 32.0,
-    "macro": 55.0
+    "macro": 67.0
    }
   },
   {
@@ -644,18 +644,18 @@
    "name": "S&P 500",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.41,
-    "ret_3m": 4.77,
-    "ret_12m": 19.47,
-    "mom_12_1": 20.31,
-    "trend_200d": 6.95,
+    "ret_1m": 0.21,
+    "ret_3m": 5.85,
+    "ret_12m": 20.55,
+    "mom_12_1": 19.7,
+    "trend_200d": 7.78,
     "above_200d": true,
     "max_drawdown": -18.76,
     "vol_annual": 17.0,
-    "sharpe_naive": 1.02,
-    "last": 742.09
+    "sharpe_naive": 1.04,
+    "last": 748.28
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -663,18 +663,18 @@
    "name": "S&P 500 (Vanguard)",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.41,
-    "ret_3m": 4.81,
-    "ret_12m": 19.59,
-    "mom_12_1": 20.33,
-    "trend_200d": 6.99,
+    "ret_1m": 0.26,
+    "ret_3m": 5.88,
+    "ret_12m": 20.64,
+    "mom_12_1": 19.77,
+    "trend_200d": 7.82,
     "above_200d": true,
     "max_drawdown": -18.69,
     "vol_annual": 16.4,
-    "sharpe_naive": 1.05,
-    "last": 682.21
+    "sharpe_naive": 1.08,
+    "last": 687.87
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -682,18 +682,18 @@
    "name": "Nasdaq 100",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": -3.55,
-    "ret_3m": 7.39,
-    "ret_12m": 24.49,
-    "mom_12_1": 32.45,
-    "trend_200d": 8.76,
+    "ret_1m": -4.17,
+    "ret_3m": 9.73,
+    "ret_12m": 26.93,
+    "mom_12_1": 31.43,
+    "trend_200d": 10.68,
     "above_200d": true,
     "max_drawdown": -22.77,
     "vol_annual": 22.3,
-    "sharpe_naive": 0.97,
-    "last": 696.06
+    "sharpe_naive": 1.01,
+    "last": 708.97
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -701,18 +701,18 @@
    "name": "Dow 30",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.62,
-    "ret_3m": 5.17,
-    "ret_12m": 18.14,
-    "mom_12_1": 18.02,
-    "trend_200d": 6.79,
+    "ret_1m": 1.19,
+    "ret_3m": 5.87,
+    "ret_12m": 19.43,
+    "mom_12_1": 18.33,
+    "trend_200d": 7.45,
     "above_200d": true,
     "max_drawdown": -15.95,
     "vol_annual": 15.1,
-    "sharpe_naive": 1.01,
-    "last": 517.94
+    "sharpe_naive": 1.03,
+    "last": 521.51
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -720,18 +720,18 @@
    "name": "Russell 2000",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.84,
-    "ret_3m": 6.25,
-    "ret_12m": 31.9,
-    "mom_12_1": 34.33,
-    "trend_200d": 11.28,
+    "ret_1m": 0.32,
+    "ret_3m": 7.17,
+    "ret_12m": 34.76,
+    "mom_12_1": 36.06,
+    "trend_200d": 12.77,
     "above_200d": true,
     "max_drawdown": -27.5,
     "vol_annual": 21.9,
-    "sharpe_naive": 0.81,
-    "last": 292.31
+    "sharpe_naive": 0.84,
+    "last": 296.54
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -739,18 +739,18 @@
    "name": "Total US Market",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.42,
-    "ret_3m": 4.79,
-    "ret_12m": 19.81,
-    "mom_12_1": 20.75,
-    "trend_200d": 7.13,
+    "ret_1m": 0.14,
+    "ret_3m": 5.8,
+    "ret_12m": 20.92,
+    "mom_12_1": 20.23,
+    "trend_200d": 8.0,
     "above_200d": true,
     "max_drawdown": -19.3,
     "vol_annual": 17.1,
-    "sharpe_naive": 1.02,
-    "last": 366.25
+    "sharpe_naive": 1.04,
+    "last": 369.45
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -758,18 +758,18 @@
    "name": "Technology",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -5.32,
-    "ret_3m": 13.97,
-    "ret_12m": 35.32,
-    "mom_12_1": 47.35,
-    "trend_200d": 14.38,
+    "ret_1m": -5.46,
+    "ret_3m": 17.1,
+    "ret_12m": 39.31,
+    "mom_12_1": 47.88,
+    "trend_200d": 17.53,
     "above_200d": true,
     "max_drawdown": -25.66,
     "vol_annual": 27.4,
-    "sharpe_naive": 0.97,
-    "last": 175.71
+    "sharpe_naive": 1.02,
+    "last": 180.78
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -777,18 +777,18 @@
    "name": "Financials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 4.04,
-    "ret_3m": 7.26,
-    "ret_12m": 8.38,
-    "mom_12_1": 3.18,
-    "trend_200d": 7.12,
+    "ret_1m": 5.11,
+    "ret_3m": 6.99,
+    "ret_12m": 8.45,
+    "mom_12_1": 4.09,
+    "trend_200d": 7.22,
     "above_200d": true,
     "max_drawdown": -15.54,
     "vol_annual": 17.8,
     "sharpe_naive": 0.92,
-    "last": 56.04
+    "last": 56.11
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -796,18 +796,18 @@
    "name": "Energy",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 6.75,
-    "ret_3m": 6.07,
-    "ret_12m": 37.88,
-    "mom_12_1": 28.08,
-    "trend_200d": 12.89,
+    "ret_1m": 9.58,
+    "ret_3m": 6.99,
+    "ret_12m": 40.35,
+    "mom_12_1": 31.06,
+    "trend_200d": 13.82,
     "above_200d": true,
     "max_drawdown": -20.14,
     "vol_annual": 23.4,
-    "sharpe_naive": 0.76,
-    "last": 57.94
+    "sharpe_naive": 0.78,
+    "last": 58.5
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -815,18 +815,18 @@
    "name": "Health Care",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 6.13,
-    "ret_3m": 7.49,
-    "ret_12m": 22.09,
-    "mom_12_1": 14.79,
-    "trend_200d": 5.87,
+    "ret_1m": 7.74,
+    "ret_3m": 9.18,
+    "ret_12m": 23.67,
+    "mom_12_1": 16.47,
+    "trend_200d": 6.47,
     "above_200d": true,
     "max_drawdown": -17.11,
     "vol_annual": 16.0,
-    "sharpe_naive": 0.4,
-    "last": 159.25
+    "sharpe_naive": 0.42,
+    "last": 160.25
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -834,18 +834,18 @@
    "name": "Industrials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -0.58,
-    "ret_3m": 2.91,
-    "ret_12m": 18.85,
-    "mom_12_1": 20.69,
-    "trend_200d": 7.75,
+    "ret_1m": -1.0,
+    "ret_3m": 2.99,
+    "ret_12m": 19.48,
+    "mom_12_1": 22.22,
+    "trend_200d": 7.99,
     "above_200d": true,
     "max_drawdown": -18.49,
     "vol_annual": 18.3,
-    "sharpe_naive": 1.12,
-    "last": 178.12
+    "sharpe_naive": 1.13,
+    "last": 178.66
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -853,18 +853,18 @@
    "name": "Consumer Disc.",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -0.56,
-    "ret_3m": -4.63,
-    "ret_12m": 4.9,
-    "mom_12_1": 6.08,
-    "trend_200d": -1.99,
+    "ret_1m": -1.76,
+    "ret_3m": -3.98,
+    "ret_12m": 4.21,
+    "mom_12_1": 3.78,
+    "trend_200d": -1.75,
     "above_200d": false,
     "max_drawdown": -26.01,
     "vol_annual": 22.6,
     "sharpe_naive": 0.57,
-    "last": 114.61
+    "last": 114.87
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -872,18 +872,18 @@
    "name": "Consumer Staples",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 2.11,
-    "ret_3m": 3.62,
-    "ret_12m": 7.53,
-    "mom_12_1": 5.11,
-    "trend_200d": 4.65,
+    "ret_1m": 1.61,
+    "ret_3m": 2.73,
+    "ret_12m": 6.8,
+    "mom_12_1": 4.43,
+    "trend_200d": 3.62,
     "above_200d": true,
     "max_drawdown": -9.69,
     "vol_annual": 13.6,
-    "sharpe_naive": 0.57,
-    "last": 84.86
+    "sharpe_naive": 0.53,
+    "last": 84.06
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -891,18 +891,18 @@
    "name": "Utilities",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 1.73,
-    "ret_3m": -2.02,
-    "ret_12m": 12.16,
-    "mom_12_1": 9.17,
-    "trend_200d": 1.41,
+    "ret_1m": 1.0,
+    "ret_3m": -1.19,
+    "ret_12m": 10.26,
+    "mom_12_1": 9.42,
+    "trend_200d": 1.35,
     "above_200d": true,
     "max_drawdown": -10.5,
     "vol_annual": 16.0,
     "sharpe_naive": 1.01,
-    "last": 44.94
+    "last": 44.92
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -910,18 +910,18 @@
    "name": "Materials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -3.47,
-    "ret_3m": -3.21,
-    "ret_12m": 13.19,
-    "mom_12_1": 16.51,
-    "trend_200d": 3.59,
+    "ret_1m": -2.94,
+    "ret_3m": -3.72,
+    "ret_12m": 13.08,
+    "mom_12_1": 15.92,
+    "trend_200d": 3.66,
     "above_200d": true,
     "max_drawdown": -23.17,
     "vol_annual": 18.7,
     "sharpe_naive": 0.47,
-    "last": 50.03
+    "last": 50.1
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -929,18 +929,18 @@
    "name": "Real Estate",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 3.77,
-    "ret_3m": 2.58,
-    "ret_12m": 12.15,
-    "mom_12_1": 7.5,
-    "trend_200d": 8.03,
+    "ret_1m": 3.96,
+    "ret_3m": 2.14,
+    "ret_12m": 11.76,
+    "mom_12_1": 8.42,
+    "trend_200d": 7.9,
     "above_200d": true,
     "max_drawdown": -16.57,
-    "vol_annual": 16.3,
+    "vol_annual": 16.2,
     "sharpe_naive": 0.6,
-    "last": 45.23
+    "last": 45.2
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -948,18 +948,18 @@
    "name": "Semiconductors",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -10.44,
-    "ret_3m": 20.4,
-    "ret_12m": 92.17,
-    "mom_12_1": 128.01,
-    "trend_200d": 26.84,
+    "ret_1m": -11.49,
+    "ret_3m": 25.89,
+    "ret_12m": 101.82,
+    "mom_12_1": 130.97,
+    "trend_200d": 32.19,
     "above_200d": true,
     "max_drawdown": -32.65,
     "vol_annual": 39.7,
-    "sharpe_naive": 1.19,
-    "last": 558.83
+    "sharpe_naive": 1.25,
+    "last": 584.08
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -967,18 +967,18 @@
    "name": "ARK Innovation",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -4.51,
-    "ret_3m": -5.4,
-    "ret_12m": -1.69,
-    "mom_12_1": 3.3,
-    "trend_200d": -3.92,
+    "ret_1m": -3.11,
+    "ret_3m": -2.05,
+    "ret_12m": 0.08,
+    "mom_12_1": 2.11,
+    "trend_200d": -0.35,
     "above_200d": false,
     "max_drawdown": -39.56,
-    "vol_annual": 41.6,
-    "sharpe_naive": 0.76,
-    "last": 74.95
+    "vol_annual": 41.7,
+    "sharpe_naive": 0.8,
+    "last": 77.69
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -986,18 +986,18 @@
    "name": "Clean Energy",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -11.43,
-    "ret_3m": -6.24,
-    "ret_12m": 36.39,
-    "mom_12_1": 57.0,
-    "trend_200d": -1.85,
-    "above_200d": false,
+    "ret_1m": -12.23,
+    "ret_3m": -5.5,
+    "ret_12m": 37.81,
+    "mom_12_1": 59.07,
+    "trend_200d": 0.13,
+    "above_200d": true,
     "max_drawdown": -27.81,
     "vol_annual": 26.5,
-    "sharpe_naive": 0.71,
-    "last": 18.14
+    "sharpe_naive": 0.75,
+    "last": 18.52
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -1005,18 +1005,18 @@
    "name": "Biotech",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": 7.55,
-    "ret_3m": 5.6,
-    "ret_12m": 41.95,
-    "mom_12_1": 34.19,
-    "trend_200d": 9.87,
+    "ret_1m": 9.02,
+    "ret_3m": 7.72,
+    "ret_12m": 46.3,
+    "mom_12_1": 37.42,
+    "trend_200d": 11.37,
     "above_200d": true,
     "max_drawdown": -24.85,
     "vol_annual": 21.9,
-    "sharpe_naive": 0.68,
-    "last": 186.53
+    "sharpe_naive": 0.72,
+    "last": 189.31
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -1024,18 +1024,18 @@
    "name": "Developed ex-US",
    "sector": "International",
    "metrics": {
-    "ret_1m": -1.17,
-    "ret_3m": -0.12,
-    "ret_12m": 19.72,
-    "mom_12_1": 22.21,
-    "trend_200d": 4.98,
+    "ret_1m": -0.34,
+    "ret_3m": 1.73,
+    "ret_12m": 21.8,
+    "mom_12_1": 21.76,
+    "trend_200d": 6.43,
     "above_200d": true,
     "max_drawdown": -14.05,
     "vol_annual": 16.7,
-    "sharpe_naive": 1.02,
-    "last": 102.57
+    "sharpe_naive": 1.06,
+    "last": 104.06
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -1043,18 +1043,18 @@
    "name": "Emerging Markets",
    "sector": "International",
    "metrics": {
-    "ret_1m": -7.29,
-    "ret_3m": 0.39,
-    "ret_12m": 31.74,
-    "mom_12_1": 47.06,
-    "trend_200d": 7.04,
+    "ret_1m": -7.7,
+    "ret_3m": 3.96,
+    "ret_12m": 35.74,
+    "mom_12_1": 46.97,
+    "trend_200d": 9.92,
     "above_200d": true,
     "max_drawdown": -17.29,
     "vol_annual": 21.7,
-    "sharpe_naive": 1.12,
-    "last": 63.56
+    "sharpe_naive": 1.18,
+    "last": 65.34
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -1062,18 +1062,18 @@
    "name": "Emerging (Vanguard)",
    "sector": "International",
    "metrics": {
-    "ret_1m": -3.03,
-    "ret_3m": -2.0,
-    "ret_12m": 17.6,
-    "mom_12_1": 23.51,
-    "trend_200d": 3.13,
+    "ret_1m": -3.14,
+    "ret_3m": 0.03,
+    "ret_12m": 19.63,
+    "mom_12_1": 23.83,
+    "trend_200d": 4.73,
     "above_200d": true,
     "max_drawdown": -17.37,
     "vol_annual": 18.0,
-    "sharpe_naive": 1.01,
-    "last": 57.93
+    "sharpe_naive": 1.05,
+    "last": 58.86
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -1081,18 +1081,18 @@
    "name": "China Large-Cap",
    "sector": "International",
    "metrics": {
-    "ret_1m": 4.13,
-    "ret_3m": -6.11,
-    "ret_12m": -5.06,
-    "mom_12_1": -10.89,
-    "trend_200d": -5.7,
+    "ret_1m": 3.99,
+    "ret_3m": -7.36,
+    "ret_12m": -7.33,
+    "mom_12_1": -10.9,
+    "trend_200d": -6.73,
     "above_200d": false,
     "max_drawdown": -23.24,
     "vol_annual": 28.5,
-    "sharpe_naive": 0.73,
-    "last": 35.04
+    "sharpe_naive": 0.71,
+    "last": 34.63
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -1100,18 +1100,18 @@
    "name": "Gold",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -5.4,
-    "ret_3m": -17.57,
-    "ret_12m": 19.51,
-    "mom_12_1": 25.53,
-    "trend_200d": -10.66,
+    "ret_1m": -3.18,
+    "ret_3m": -15.22,
+    "ret_12m": 21.54,
+    "mom_12_1": 22.82,
+    "trend_200d": -8.93,
     "above_200d": false,
     "max_drawdown": -26.4,
     "vol_annual": 23.4,
-    "sharpe_naive": 1.21,
-    "last": 367.6
+    "sharpe_naive": 1.25,
+    "last": 374.81
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -1119,18 +1119,18 @@
    "name": "Silver",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -15.89,
-    "ret_3m": -30.76,
-    "ret_12m": 47.13,
-    "mom_12_1": 71.94,
-    "trend_200d": -19.33,
+    "ret_1m": -10.8,
+    "ret_3m": -26.43,
+    "ret_12m": 53.37,
+    "mom_12_1": 66.65,
+    "trend_200d": -16.08,
     "above_200d": false,
     "max_drawdown": -52.28,
-    "vol_annual": 47.6,
-    "sharpe_naive": 0.94,
-    "last": 50.98
+    "vol_annual": 47.7,
+    "sharpe_naive": 0.98,
+    "last": 53.08
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -1138,18 +1138,18 @@
    "name": "20+yr Treasuries",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -2.47,
-    "ret_3m": -2.56,
-    "ret_12m": 3.06,
-    "mom_12_1": 6.02,
-    "trend_200d": -2.47,
+    "ret_1m": -3.21,
+    "ret_3m": -2.8,
+    "ret_12m": 2.62,
+    "mom_12_1": 4.28,
+    "trend_200d": -2.72,
     "above_200d": false,
     "max_drawdown": -14.79,
     "vol_annual": 11.9,
-    "sharpe_naive": 0.0,
-    "last": 83.89
+    "sharpe_naive": -0.01,
+    "last": 83.66
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -1157,18 +1157,18 @@
    "name": "High-Yield Bonds",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": 0.4,
-    "ret_3m": 0.29,
-    "ret_12m": 5.42,
-    "mom_12_1": 5.23,
-    "trend_200d": 1.52,
+    "ret_1m": 0.01,
+    "ret_3m": 0.34,
+    "ret_12m": 5.24,
+    "mom_12_1": 4.99,
+    "trend_200d": 1.46,
     "above_200d": true,
     "max_drawdown": -4.56,
     "vol_annual": 4.8,
-    "sharpe_naive": 1.43,
-    "last": 79.68
+    "sharpe_naive": 1.42,
+    "last": 79.65
    },
-   "n_obs": 500
+   "n_obs": 501
   },
   {
    "asset": "etf",
@@ -1176,18 +1176,18 @@
    "name": "US Agg Bonds",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -0.34,
-    "ret_3m": -0.91,
-    "ret_12m": 4.05,
-    "mom_12_1": 4.52,
-    "trend_200d": -0.2,
+    "ret_1m": -0.84,
+    "ret_3m": -1.12,
+    "ret_12m": 3.64,
+    "mom_12_1": 3.95,
+    "trend_200d": -0.42,
     "above_200d": false,
     "max_drawdown": -4.82,
     "vol_annual": 4.6,
-    "sharpe_naive": 0.88,
-    "last": 97.95
+    "sharpe_naive": 0.85,
+    "last": 97.74
    },
-   "n_obs": 500
+   "n_obs": 501
   }
  ],
  "crypto": [
@@ -1197,16 +1197,16 @@
    "name": "Bitcoin",
    "sector": "",
    "metrics": {
-    "ret_1m": 8.26,
-    "ret_3m": -15.4,
-    "ret_12m": -38.58,
-    "mom_12_1": -43.15,
-    "trend_200d": -10.73,
+    "ret_1m": 13.24,
+    "ret_3m": -13.6,
+    "ret_12m": -35.62,
+    "mom_12_1": -40.98,
+    "trend_200d": -8.93,
     "above_200d": false,
     "max_drawdown": -53.06,
     "vol_annual": 38.3,
-    "sharpe_naive": 0.16,
-    "last": 65103.07
+    "sharpe_naive": 0.17,
+    "last": 66310.28
    },
    "n_obs": 731
   },
@@ -1216,16 +1216,16 @@
    "name": "Ethereum",
    "sector": "",
    "metrics": {
-    "ret_1m": 17.66,
-    "ret_3m": -10.99,
-    "ret_12m": -46.91,
-    "mom_12_1": -54.04,
-    "trend_200d": -13.02,
+    "ret_1m": 22.55,
+    "ret_3m": -8.84,
+    "ret_12m": -43.68,
+    "mom_12_1": -52.86,
+    "trend_200d": -11.45,
     "above_200d": false,
     "max_drawdown": -67.61,
     "vol_annual": 58.7,
     "sharpe_naive": -0.07,
-    "last": 1894.59
+    "last": 1923.51
    },
    "n_obs": 731
   },
@@ -1235,16 +1235,16 @@
    "name": "Solana",
    "sector": "",
    "metrics": {
-    "ret_1m": 3.27,
-    "ret_3m": -9.26,
-    "ret_12m": -53.75,
-    "mom_12_1": -52.43,
-    "trend_200d": -13.84,
+    "ret_1m": 6.13,
+    "ret_3m": -7.34,
+    "ret_12m": -49.52,
+    "mom_12_1": -49.51,
+    "trend_200d": -12.88,
     "above_200d": false,
     "max_drawdown": -76.25,
-    "vol_annual": 65.2,
-    "sharpe_naive": -0.1,
-    "last": 77.4
+    "vol_annual": 65.1,
+    "sharpe_naive": -0.13,
+    "last": 78.03
    },
    "n_obs": 731
   },
@@ -1254,16 +1254,16 @@
    "name": "BNB",
    "sector": "",
    "metrics": {
-    "ret_1m": 1.95,
-    "ret_3m": -11.43,
-    "ret_12m": -42.58,
-    "mom_12_1": -43.05,
-    "trend_200d": -14.03,
+    "ret_1m": 5.09,
+    "ret_3m": -10.32,
+    "ret_12m": -40.15,
+    "mom_12_1": -42.28,
+    "trend_200d": -13.24,
     "above_200d": false,
     "max_drawdown": -58.35,
-    "vol_annual": 42.4,
-    "sharpe_naive": 0.18,
-    "last": 569.55
+    "vol_annual": 42.3,
+    "sharpe_naive": 0.17,
+    "last": 573.48
    },
    "n_obs": 731
   },
@@ -1273,16 +1273,16 @@
    "name": "XRP",
    "sector": "",
    "metrics": {
-    "ret_1m": 4.89,
-    "ret_3m": -20.17,
-    "ret_12m": -56.1,
-    "mom_12_1": -56.58,
-    "trend_200d": -21.93,
+    "ret_1m": 10.32,
+    "ret_3m": -15.8,
+    "ret_12m": -52.1,
+    "mom_12_1": -55.92,
+    "trend_200d": -19.11,
     "above_200d": false,
     "max_drawdown": -70.8,
     "vol_annual": 69.6,
-    "sharpe_naive": 0.65,
-    "last": 1.11
+    "sharpe_naive": 0.66,
+    "last": 1.15
    },
    "n_obs": 731
   },
@@ -1292,11 +1292,11 @@
    "name": "Cardano",
    "sector": "",
    "metrics": {
-    "ret_1m": 16.08,
-    "ret_3m": -32.76,
-    "ret_12m": -71.5,
-    "mom_12_1": -74.1,
-    "trend_200d": -33.53,
+    "ret_1m": 20.0,
+    "ret_3m": -30.3,
+    "ret_12m": -68.91,
+    "mom_12_1": -71.75,
+    "trend_200d": -31.66,
     "above_200d": false,
     "max_drawdown": -88.35,
     "vol_annual": 82.2,
@@ -1311,15 +1311,15 @@
    "name": "Dogecoin",
    "sector": "",
    "metrics": {
-    "ret_1m": -2.11,
-    "ret_3m": -31.45,
-    "ret_12m": -60.54,
-    "mom_12_1": -58.15,
-    "trend_200d": -27.53,
+    "ret_1m": 1.83,
+    "ret_3m": -28.77,
+    "ret_12m": -57.38,
+    "mom_12_1": -57.56,
+    "trend_200d": -25.69,
     "above_200d": false,
-    "max_drawdown": -84.65,
+    "max_drawdown": -84.62,
     "vol_annual": 73.8,
-    "sharpe_naive": 0.07,
+    "sharpe_naive": 0.06,
     "last": 0.07
    },
    "n_obs": 731
@@ -1330,16 +1330,16 @@
    "name": "Avalanche",
    "sector": "",
    "metrics": {
-    "ret_1m": -1.7,
-    "ret_3m": -29.07,
-    "ret_12m": -63.95,
-    "mom_12_1": -61.64,
-    "trend_200d": -28.8,
+    "ret_1m": 0.67,
+    "ret_3m": -27.79,
+    "ret_12m": -61.38,
+    "mom_12_1": -60.39,
+    "trend_200d": -28.31,
     "above_200d": false,
     "max_drawdown": -89.05,
-    "vol_annual": 72.2,
-    "sharpe_naive": -0.35,
-    "last": 6.55
+    "vol_annual": 71.9,
+    "sharpe_naive": -0.41,
+    "last": 6.57
    },
    "n_obs": 731
   },
@@ -1349,16 +1349,16 @@
    "name": "Chainlink",
    "sector": "",
    "metrics": {
-    "ret_1m": 15.76,
-    "ret_3m": -11.07,
-    "ret_12m": -47.8,
-    "mom_12_1": -53.0,
-    "trend_200d": -9.14,
+    "ret_1m": 20.04,
+    "ret_3m": -8.68,
+    "ret_12m": -43.59,
+    "mom_12_1": -51.46,
+    "trend_200d": -7.86,
     "above_200d": false,
     "max_drawdown": -75.45,
-    "vol_annual": 73.0,
-    "sharpe_naive": 0.12,
-    "last": 8.53
+    "vol_annual": 72.9,
+    "sharpe_naive": 0.1,
+    "last": 8.63
    },
    "n_obs": 731
   },
@@ -1368,16 +1368,16 @@
    "name": "Polkadot",
    "sector": "",
    "metrics": {
-    "ret_1m": -0.21,
-    "ret_3m": -34.23,
-    "ret_12m": -74.79,
-    "mom_12_1": -73.11,
-    "trend_200d": -38.39,
+    "ret_1m": 3.94,
+    "ret_3m": -30.33,
+    "ret_12m": -72.05,
+    "mom_12_1": -71.69,
+    "trend_200d": -35.75,
     "above_200d": false,
     "max_drawdown": -92.44,
     "vol_annual": 71.1,
-    "sharpe_naive": -0.64,
-    "last": 0.82
+    "sharpe_naive": -0.63,
+    "last": 0.85
    },
    "n_obs": 731
   }
