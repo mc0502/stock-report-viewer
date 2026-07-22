@@ -1197,16 +1197,16 @@ window.SITE_DATA={
    "name": "Bitcoin",
    "sector": "",
    "metrics": {
-    "ret_1m": 10.06,
-    "ret_3m": -14.74,
-    "ret_12m": -35.04,
+    "ret_1m": 10.01,
+    "ret_3m": -14.78,
+    "ret_12m": -35.07,
     "mom_12_1": -38.33,
-    "trend_200d": -9.15,
+    "trend_200d": -9.19,
     "above_200d": false,
     "max_drawdown": -53.06,
     "vol_annual": 38.3,
     "sharpe_naive": 0.17,
-    "last": 66037.96
+    "last": 66009.91
    },
    "n_obs": 731
   },
@@ -1216,16 +1216,16 @@ window.SITE_DATA={
    "name": "Ethereum",
    "sector": "",
    "metrics": {
-    "ret_1m": 20.19,
-    "ret_3m": -9.08,
-    "ret_12m": -43.34,
+    "ret_1m": 20.39,
+    "ret_3m": -8.93,
+    "ret_12m": -43.25,
     "mom_12_1": -47.47,
-    "trend_200d": -10.73,
+    "trend_200d": -10.58,
     "above_200d": false,
     "max_drawdown": -67.61,
     "vol_annual": 58.7,
     "sharpe_naive": -0.05,
-    "last": 1933.79
+    "last": 1937.0
    },
    "n_obs": 731
   },
@@ -1235,16 +1235,16 @@ window.SITE_DATA={
    "name": "Solana",
    "sector": "",
    "metrics": {
-    "ret_1m": 0.69,
-    "ret_3m": -9.44,
-    "ret_12m": -49.16,
+    "ret_1m": 0.72,
+    "ret_3m": -9.42,
+    "ret_12m": -49.15,
     "mom_12_1": -44.43,
-    "trend_200d": -12.73,
+    "trend_200d": -12.71,
     "above_200d": false,
     "max_drawdown": -76.25,
     "vol_annual": 65.1,
     "sharpe_naive": -0.12,
-    "last": 77.92
+    "last": 77.94
    },
    "n_obs": 731
   },
@@ -1254,16 +1254,16 @@ window.SITE_DATA={
    "name": "BNB",
    "sector": "",
    "metrics": {
-    "ret_1m": 3.93,
-    "ret_3m": -11.88,
-    "ret_12m": -40.01,
+    "ret_1m": 3.79,
+    "ret_3m": -12.0,
+    "ret_12m": -40.09,
     "mom_12_1": -39.87,
-    "trend_200d": -13.3,
+    "trend_200d": -13.41,
     "above_200d": false,
     "max_drawdown": -58.35,
     "vol_annual": 42.3,
     "sharpe_naive": 0.19,
-    "last": 571.72
+    "last": 570.98
    },
    "n_obs": 731
   },
@@ -1273,11 +1273,11 @@ window.SITE_DATA={
    "name": "XRP",
    "sector": "",
    "metrics": {
-    "ret_1m": 8.45,
-    "ret_3m": -16.43,
-    "ret_12m": -52.19,
+    "ret_1m": 8.48,
+    "ret_3m": -16.4,
+    "ret_12m": -52.18,
     "mom_12_1": -53.39,
-    "trend_200d": -19.17,
+    "trend_200d": -19.15,
     "above_200d": false,
     "max_drawdown": -70.8,
     "vol_annual": 69.6,
@@ -1292,11 +1292,11 @@ window.SITE_DATA={
    "name": "Cardano",
    "sector": "",
    "metrics": {
-    "ret_1m": 13.54,
-    "ret_3m": -29.76,
-    "ret_12m": -67.92,
+    "ret_1m": 13.61,
+    "ret_3m": -29.72,
+    "ret_12m": -67.91,
     "mom_12_1": -69.63,
-    "trend_200d": -30.61,
+    "trend_200d": -30.57,
     "above_200d": false,
     "max_drawdown": -88.35,
     "vol_annual": 82.1,
@@ -1311,11 +1311,11 @@ window.SITE_DATA={
    "name": "Dogecoin",
    "sector": "",
    "metrics": {
-    "ret_1m": 1.1,
-    "ret_3m": -29.55,
+    "ret_1m": 1.08,
+    "ret_3m": -29.56,
     "ret_12m": -57.1,
     "mom_12_1": -54.91,
-    "trend_200d": -25.77,
+    "trend_200d": -25.78,
     "above_200d": false,
     "max_drawdown": -84.62,
     "vol_annual": 73.8,
@@ -1330,16 +1330,16 @@ window.SITE_DATA={
    "name": "Avalanche",
    "sector": "",
    "metrics": {
-    "ret_1m": -0.19,
-    "ret_3m": -28.37,
-    "ret_12m": -60.46,
+    "ret_1m": -0.64,
+    "ret_3m": -28.69,
+    "ret_12m": -60.64,
     "mom_12_1": -57.97,
-    "trend_200d": -27.14,
+    "trend_200d": -27.47,
     "above_200d": false,
     "max_drawdown": -89.05,
     "vol_annual": 71.9,
     "sharpe_naive": -0.39,
-    "last": 6.65
+    "last": 6.62
    },
    "n_obs": 731
   },
@@ -1349,11 +1349,11 @@ window.SITE_DATA={
    "name": "Chainlink",
    "sector": "",
    "metrics": {
-    "ret_1m": 17.58,
-    "ret_3m": -10.18,
-    "ret_12m": -42.93,
+    "ret_1m": 17.48,
+    "ret_3m": -10.26,
+    "ret_12m": -42.97,
     "mom_12_1": -46.92,
-    "trend_200d": -7.5,
+    "trend_200d": -7.58,
     "above_200d": false,
     "max_drawdown": -75.45,
     "vol_annual": 72.8,
@@ -1368,16 +1368,16 @@ window.SITE_DATA={
    "name": "Polkadot",
    "sector": "",
    "metrics": {
-    "ret_1m": 1.49,
-    "ret_3m": -32.66,
-    "ret_12m": -71.27,
+    "ret_1m": 0.89,
+    "ret_3m": -33.06,
+    "ret_12m": -71.44,
     "mom_12_1": -70.63,
-    "trend_200d": -36.42,
+    "trend_200d": -36.8,
     "above_200d": false,
     "max_drawdown": -92.44,
     "vol_annual": 71.1,
     "sharpe_naive": -0.61,
-    "last": 0.84
+    "last": 0.83
    },
    "n_obs": 731
   }
