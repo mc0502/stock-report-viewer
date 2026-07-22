@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-21",
+ "generated": "2026-07-22",
  "counts": {
   "stocks": 30,
   "etfs": 29,
@@ -644,16 +644,16 @@
    "name": "S&P 500",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.21,
-    "ret_3m": 5.85,
-    "ret_12m": 20.55,
-    "mom_12_1": 19.7,
-    "trend_200d": 7.78,
+    "ret_1m": 0.41,
+    "ret_3m": 6.43,
+    "ret_12m": 20.19,
+    "mom_12_1": 17.94,
+    "trend_200d": 7.59,
     "above_200d": true,
     "max_drawdown": -18.76,
     "vol_annual": 17.0,
     "sharpe_naive": 1.04,
-    "last": 748.28
+    "last": 747.41
    },
    "n_obs": 501
   },
@@ -663,16 +663,16 @@
    "name": "S&P 500 (Vanguard)",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.26,
-    "ret_3m": 5.88,
-    "ret_12m": 20.64,
-    "mom_12_1": 19.77,
-    "trend_200d": 7.82,
+    "ret_1m": 0.43,
+    "ret_3m": 6.46,
+    "ret_12m": 20.28,
+    "mom_12_1": 18.06,
+    "trend_200d": 7.62,
     "above_200d": true,
     "max_drawdown": -18.69,
     "vol_annual": 16.4,
     "sharpe_naive": 1.08,
-    "last": 687.87
+    "last": 687.03
    },
    "n_obs": 501
   },
@@ -682,16 +682,16 @@
    "name": "Nasdaq 100",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": -4.17,
-    "ret_3m": 9.73,
-    "ret_12m": 26.93,
-    "mom_12_1": 31.43,
-    "trend_200d": 10.68,
+    "ret_1m": -4.42,
+    "ret_3m": 9.59,
+    "ret_12m": 25.63,
+    "mom_12_1": 27.77,
+    "trend_200d": 10.03,
     "above_200d": true,
     "max_drawdown": -22.77,
     "vol_annual": 22.3,
-    "sharpe_naive": 1.01,
-    "last": 708.97
+    "sharpe_naive": 1.0,
+    "last": 705.35
    },
    "n_obs": 501
   },
@@ -701,16 +701,16 @@
    "name": "Dow 30",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 1.19,
-    "ret_3m": 5.87,
-    "ret_12m": 19.43,
-    "mom_12_1": 18.33,
-    "trend_200d": 7.45,
+    "ret_1m": 0.88,
+    "ret_3m": 6.51,
+    "ret_12m": 19.37,
+    "mom_12_1": 17.82,
+    "trend_200d": 7.38,
     "above_200d": true,
     "max_drawdown": -15.95,
     "vol_annual": 15.1,
-    "sharpe_naive": 1.03,
-    "last": 521.51
+    "sharpe_naive": 1.04,
+    "last": 521.47
    },
    "n_obs": 501
   },
@@ -720,16 +720,16 @@
    "name": "Russell 2000",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.32,
-    "ret_3m": 7.17,
-    "ret_12m": 34.76,
-    "mom_12_1": 36.06,
-    "trend_200d": 12.77,
+    "ret_1m": -1.47,
+    "ret_3m": 7.28,
+    "ret_12m": 34.06,
+    "mom_12_1": 33.64,
+    "trend_200d": 11.62,
     "above_200d": true,
     "max_drawdown": -27.5,
     "vol_annual": 21.9,
-    "sharpe_naive": 0.84,
-    "last": 296.54
+    "sharpe_naive": 0.8,
+    "last": 293.79
    },
    "n_obs": 501
   },
@@ -739,16 +739,16 @@
    "name": "Total US Market",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.14,
-    "ret_3m": 5.8,
-    "ret_12m": 20.92,
-    "mom_12_1": 20.23,
-    "trend_200d": 8.0,
+    "ret_1m": 0.3,
+    "ret_3m": 6.35,
+    "ret_12m": 20.6,
+    "mom_12_1": 18.43,
+    "trend_200d": 7.76,
     "above_200d": true,
     "max_drawdown": -19.3,
     "vol_annual": 17.1,
     "sharpe_naive": 1.04,
-    "last": 369.45
+    "last": 368.87
    },
    "n_obs": 501
   },
@@ -758,16 +758,16 @@
    "name": "Technology",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -5.46,
-    "ret_3m": 17.1,
-    "ret_12m": 39.31,
-    "mom_12_1": 47.88,
-    "trend_200d": 17.53,
+    "ret_1m": -6.18,
+    "ret_3m": 16.68,
+    "ret_12m": 38.74,
+    "mom_12_1": 43.08,
+    "trend_200d": 17.06,
     "above_200d": true,
     "max_drawdown": -25.66,
     "vol_annual": 27.4,
     "sharpe_naive": 1.02,
-    "last": 180.78
+    "last": 180.27
    },
    "n_obs": 501
   },
@@ -777,16 +777,16 @@
    "name": "Financials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 5.11,
-    "ret_3m": 6.99,
-    "ret_12m": 8.45,
-    "mom_12_1": 4.09,
-    "trend_200d": 7.22,
+    "ret_1m": 4.38,
+    "ret_3m": 7.55,
+    "ret_12m": 8.65,
+    "mom_12_1": 3.87,
+    "trend_200d": 7.07,
     "above_200d": true,
     "max_drawdown": -15.54,
     "vol_annual": 17.8,
-    "sharpe_naive": 0.92,
-    "last": 56.11
+    "sharpe_naive": 0.91,
+    "last": 56.05
    },
    "n_obs": 501
   },
@@ -796,16 +796,16 @@
    "name": "Energy",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 9.58,
-    "ret_3m": 6.99,
-    "ret_12m": 40.35,
-    "mom_12_1": 31.06,
-    "trend_200d": 13.82,
+    "ret_1m": 9.51,
+    "ret_3m": 6.72,
+    "ret_12m": 43.52,
+    "mom_12_1": 31.41,
+    "trend_200d": 15.0,
     "above_200d": true,
     "max_drawdown": -20.14,
     "vol_annual": 23.4,
-    "sharpe_naive": 0.78,
-    "last": 58.5
+    "sharpe_naive": 0.84,
+    "last": 59.2
    },
    "n_obs": 501
   },
@@ -815,16 +815,16 @@
    "name": "Health Care",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 7.74,
-    "ret_3m": 9.18,
-    "ret_12m": 23.67,
-    "mom_12_1": 16.47,
-    "trend_200d": 6.47,
+    "ret_1m": 6.24,
+    "ret_3m": 9.74,
+    "ret_12m": 23.74,
+    "mom_12_1": 15.96,
+    "trend_200d": 5.86,
     "above_200d": true,
     "max_drawdown": -17.11,
     "vol_annual": 16.0,
-    "sharpe_naive": 0.42,
-    "last": 160.25
+    "sharpe_naive": 0.41,
+    "last": 159.43
    },
    "n_obs": 501
   },
@@ -834,16 +834,16 @@
    "name": "Industrials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -1.0,
-    "ret_3m": 2.99,
-    "ret_12m": 19.48,
-    "mom_12_1": 22.22,
-    "trend_200d": 7.99,
+    "ret_1m": -1.62,
+    "ret_3m": 4.58,
+    "ret_12m": 20.24,
+    "mom_12_1": 19.48,
+    "trend_200d": 8.02,
     "above_200d": true,
     "max_drawdown": -18.49,
     "vol_annual": 18.3,
     "sharpe_naive": 1.13,
-    "last": 178.66
+    "last": 178.85
    },
    "n_obs": 501
   },
@@ -853,16 +853,16 @@
    "name": "Consumer Disc.",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -1.76,
-    "ret_3m": -3.98,
-    "ret_12m": 4.21,
-    "mom_12_1": 3.78,
-    "trend_200d": -1.75,
+    "ret_1m": -0.8,
+    "ret_3m": -3.97,
+    "ret_12m": 2.95,
+    "mom_12_1": 1.69,
+    "trend_200d": -2.45,
     "above_200d": false,
     "max_drawdown": -26.01,
     "vol_annual": 22.6,
     "sharpe_naive": 0.57,
-    "last": 114.87
+    "last": 114.02
    },
    "n_obs": 501
   },
@@ -872,16 +872,16 @@
    "name": "Consumer Staples",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 1.61,
-    "ret_3m": 2.73,
-    "ret_12m": 6.8,
-    "mom_12_1": 4.43,
-    "trend_200d": 3.62,
+    "ret_1m": 2.68,
+    "ret_3m": 3.82,
+    "ret_12m": 7.22,
+    "mom_12_1": 5.42,
+    "trend_200d": 3.96,
     "above_200d": true,
     "max_drawdown": -9.69,
     "vol_annual": 13.6,
-    "sharpe_naive": 0.53,
-    "last": 84.06
+    "sharpe_naive": 0.56,
+    "last": 84.38
    },
    "n_obs": 501
   },
@@ -891,16 +891,16 @@
    "name": "Utilities",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 1.0,
-    "ret_3m": -1.19,
-    "ret_12m": 10.26,
-    "mom_12_1": 9.42,
-    "trend_200d": 1.35,
+    "ret_1m": 2.71,
+    "ret_3m": 2.83,
+    "ret_12m": 12.38,
+    "mom_12_1": 8.94,
+    "trend_200d": 3.59,
     "above_200d": true,
     "max_drawdown": -10.5,
-    "vol_annual": 16.0,
-    "sharpe_naive": 1.01,
-    "last": 44.92
+    "vol_annual": 16.1,
+    "sharpe_naive": 1.1,
+    "last": 45.93
    },
    "n_obs": 501
   },
@@ -910,16 +910,16 @@
    "name": "Materials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -2.94,
-    "ret_3m": -3.72,
-    "ret_12m": 13.08,
-    "mom_12_1": 15.92,
-    "trend_200d": 3.66,
+    "ret_1m": -1.55,
+    "ret_3m": -1.47,
+    "ret_12m": 14.13,
+    "mom_12_1": 12.69,
+    "trend_200d": 5.08,
     "above_200d": true,
     "max_drawdown": -23.17,
     "vol_annual": 18.7,
-    "sharpe_naive": 0.47,
-    "last": 50.1
+    "sharpe_naive": 0.5,
+    "last": 50.82
    },
    "n_obs": 501
   },
@@ -929,16 +929,16 @@
    "name": "Real Estate",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 3.96,
-    "ret_3m": 2.14,
-    "ret_12m": 11.76,
-    "mom_12_1": 8.42,
-    "trend_200d": 7.9,
+    "ret_1m": 2.25,
+    "ret_3m": 3.71,
+    "ret_12m": 10.86,
+    "mom_12_1": 8.07,
+    "trend_200d": 7.39,
     "above_200d": true,
     "max_drawdown": -16.57,
     "vol_annual": 16.2,
-    "sharpe_naive": 0.6,
-    "last": 45.2
+    "sharpe_naive": 0.59,
+    "last": 45.01
    },
    "n_obs": 501
   },
@@ -948,16 +948,16 @@
    "name": "Semiconductors",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -11.49,
-    "ret_3m": 25.89,
-    "ret_12m": 101.82,
-    "mom_12_1": 130.97,
-    "trend_200d": 32.19,
+    "ret_1m": -12.26,
+    "ret_3m": 26.31,
+    "ret_12m": 102.66,
+    "mom_12_1": 118.66,
+    "trend_200d": 32.46,
     "above_200d": true,
     "max_drawdown": -32.65,
     "vol_annual": 39.7,
-    "sharpe_naive": 1.25,
-    "last": 584.08
+    "sharpe_naive": 1.27,
+    "last": 586.91
    },
    "n_obs": 501
   },
@@ -967,16 +967,16 @@
    "name": "ARK Innovation",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -3.11,
-    "ret_3m": -2.05,
-    "ret_12m": 0.08,
-    "mom_12_1": 2.11,
-    "trend_200d": -0.35,
+    "ret_1m": -3.06,
+    "ret_3m": -1.74,
+    "ret_12m": -1.02,
+    "mom_12_1": 0.38,
+    "trend_200d": -2.4,
     "above_200d": false,
     "max_drawdown": -39.56,
     "vol_annual": 41.7,
-    "sharpe_naive": 0.8,
-    "last": 77.69
+    "sharpe_naive": 0.77,
+    "last": 76.03
    },
    "n_obs": 501
   },
@@ -986,16 +986,16 @@
    "name": "Clean Energy",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -12.23,
-    "ret_3m": -5.5,
-    "ret_12m": 37.81,
-    "mom_12_1": 59.07,
-    "trend_200d": 0.13,
+    "ret_1m": -14.29,
+    "ret_3m": -4.18,
+    "ret_12m": 36.35,
+    "mom_12_1": 49.4,
+    "trend_200d": 0.16,
     "above_200d": true,
     "max_drawdown": -27.81,
     "vol_annual": 26.5,
-    "sharpe_naive": 0.75,
-    "last": 18.52
+    "sharpe_naive": 0.76,
+    "last": 18.54
    },
    "n_obs": 501
   },
@@ -1005,16 +1005,16 @@
    "name": "Biotech",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": 9.02,
-    "ret_3m": 7.72,
-    "ret_12m": 46.3,
-    "mom_12_1": 37.42,
-    "trend_200d": 11.37,
+    "ret_1m": 5.65,
+    "ret_3m": 7.49,
+    "ret_12m": 45.18,
+    "mom_12_1": 34.4,
+    "trend_200d": 9.89,
     "above_200d": true,
     "max_drawdown": -24.85,
     "vol_annual": 21.9,
-    "sharpe_naive": 0.72,
-    "last": 189.31
+    "sharpe_naive": 0.7,
+    "last": 187.0
    },
    "n_obs": 501
   },
@@ -1024,16 +1024,16 @@
    "name": "Developed ex-US",
    "sector": "International",
    "metrics": {
-    "ret_1m": -0.34,
-    "ret_3m": 1.73,
-    "ret_12m": 21.8,
-    "mom_12_1": 21.76,
-    "trend_200d": 6.43,
+    "ret_1m": -0.32,
+    "ret_3m": 4.2,
+    "ret_12m": 21.38,
+    "mom_12_1": 18.64,
+    "trend_200d": 6.55,
     "above_200d": true,
     "max_drawdown": -14.05,
     "vol_annual": 16.7,
-    "sharpe_naive": 1.06,
-    "last": 104.06
+    "sharpe_naive": 1.08,
+    "last": 104.25
    },
    "n_obs": 501
   },
@@ -1043,16 +1043,16 @@
    "name": "Emerging Markets",
    "sector": "International",
    "metrics": {
-    "ret_1m": -7.7,
-    "ret_3m": 3.96,
-    "ret_12m": 35.74,
-    "mom_12_1": 46.97,
-    "trend_200d": 9.92,
+    "ret_1m": -8.73,
+    "ret_3m": 4.94,
+    "ret_12m": 34.13,
+    "mom_12_1": 38.55,
+    "trend_200d": 9.22,
     "above_200d": true,
     "max_drawdown": -17.29,
     "vol_annual": 21.7,
-    "sharpe_naive": 1.18,
-    "last": 65.34
+    "sharpe_naive": 1.19,
+    "last": 64.99
    },
    "n_obs": 501
   },
@@ -1062,16 +1062,16 @@
    "name": "Emerging (Vanguard)",
    "sector": "International",
    "metrics": {
-    "ret_1m": -3.14,
-    "ret_3m": 0.03,
-    "ret_12m": 19.63,
-    "mom_12_1": 23.83,
-    "trend_200d": 4.73,
+    "ret_1m": -3.97,
+    "ret_3m": 1.17,
+    "ret_12m": 18.91,
+    "mom_12_1": 20.0,
+    "trend_200d": 4.59,
     "above_200d": true,
     "max_drawdown": -17.37,
     "vol_annual": 18.0,
-    "sharpe_naive": 1.05,
-    "last": 58.86
+    "sharpe_naive": 1.08,
+    "last": 58.81
    },
    "n_obs": 501
   },
@@ -1081,16 +1081,16 @@
    "name": "China Large-Cap",
    "sector": "International",
    "metrics": {
-    "ret_1m": 3.99,
-    "ret_3m": -7.36,
-    "ret_12m": -7.33,
-    "mom_12_1": -10.9,
-    "trend_200d": -6.73,
+    "ret_1m": 2.99,
+    "ret_3m": -6.53,
+    "ret_12m": -8.23,
+    "mom_12_1": -13.69,
+    "trend_200d": -7.19,
     "above_200d": false,
     "max_drawdown": -23.24,
     "vol_annual": 28.5,
-    "sharpe_naive": 0.71,
-    "last": 34.63
+    "sharpe_naive": 0.72,
+    "last": 34.43
    },
    "n_obs": 501
   },
@@ -1100,16 +1100,16 @@
    "name": "Gold",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -3.18,
-    "ret_3m": -15.22,
-    "ret_12m": 21.54,
-    "mom_12_1": 22.82,
-    "trend_200d": -8.93,
+    "ret_1m": -1.42,
+    "ret_3m": -11.74,
+    "ret_12m": 21.07,
+    "mom_12_1": 19.37,
+    "trend_200d": -7.91,
     "above_200d": false,
     "max_drawdown": -26.4,
     "vol_annual": 23.4,
-    "sharpe_naive": 1.25,
-    "last": 374.81
+    "sharpe_naive": 1.26,
+    "last": 379.12
    },
    "n_obs": 501
   },
@@ -1119,16 +1119,16 @@
    "name": "Silver",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -10.8,
-    "ret_3m": -26.43,
-    "ret_12m": 53.37,
-    "mom_12_1": 66.65,
-    "trend_200d": -16.08,
+    "ret_1m": -8.47,
+    "ret_3m": -21.27,
+    "ret_12m": 52.53,
+    "mom_12_1": 56.02,
+    "trend_200d": -14.82,
     "above_200d": false,
     "max_drawdown": -52.28,
     "vol_annual": 47.7,
-    "sharpe_naive": 0.98,
-    "last": 53.08
+    "sharpe_naive": 0.99,
+    "last": 53.92
    },
    "n_obs": 501
   },
@@ -1138,16 +1138,16 @@
    "name": "20+yr Treasuries",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -3.21,
-    "ret_3m": -2.8,
-    "ret_12m": 2.62,
-    "mom_12_1": 4.28,
-    "trend_200d": -2.72,
+    "ret_1m": -2.72,
+    "ret_3m": -2.52,
+    "ret_12m": 1.44,
+    "mom_12_1": 3.79,
+    "trend_200d": -2.96,
     "above_200d": false,
     "max_drawdown": -14.79,
     "vol_annual": 11.9,
     "sharpe_naive": -0.01,
-    "last": 83.66
+    "last": 83.44
    },
    "n_obs": 501
   },
@@ -1157,16 +1157,16 @@
    "name": "High-Yield Bonds",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": 0.01,
-    "ret_3m": 0.34,
-    "ret_12m": 5.24,
-    "mom_12_1": 4.99,
-    "trend_200d": 1.46,
+    "ret_1m": -0.06,
+    "ret_3m": 0.43,
+    "ret_12m": 4.92,
+    "mom_12_1": 4.72,
+    "trend_200d": 1.28,
     "above_200d": true,
     "max_drawdown": -4.56,
     "vol_annual": 4.8,
-    "sharpe_naive": 1.42,
-    "last": 79.65
+    "sharpe_naive": 1.4,
+    "last": 79.52
    },
    "n_obs": 501
   },
@@ -1176,16 +1176,16 @@
    "name": "US Agg Bonds",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -0.84,
-    "ret_3m": -1.12,
-    "ret_12m": 3.64,
-    "mom_12_1": 3.95,
-    "trend_200d": -0.42,
+    "ret_1m": -0.73,
+    "ret_3m": -0.91,
+    "ret_12m": 3.19,
+    "mom_12_1": 3.83,
+    "trend_200d": -0.58,
     "above_200d": false,
     "max_drawdown": -4.82,
     "vol_annual": 4.6,
-    "sharpe_naive": 0.85,
-    "last": 97.74
+    "sharpe_naive": 0.83,
+    "last": 97.58
    },
    "n_obs": 501
   }
@@ -1197,16 +1197,16 @@
    "name": "Bitcoin",
    "sector": "",
    "metrics": {
-    "ret_1m": 13.12,
-    "ret_3m": -13.69,
-    "ret_12m": -35.69,
-    "mom_12_1": -40.98,
-    "trend_200d": -9.02,
+    "ret_1m": 10.06,
+    "ret_3m": -14.74,
+    "ret_12m": -35.04,
+    "mom_12_1": -38.33,
+    "trend_200d": -9.15,
     "above_200d": false,
     "max_drawdown": -53.06,
     "vol_annual": 38.3,
-    "sharpe_naive": 0.16,
-    "last": 66241.41
+    "sharpe_naive": 0.17,
+    "last": 66037.96
    },
    "n_obs": 731
   },
@@ -1216,16 +1216,16 @@
    "name": "Ethereum",
    "sector": "",
    "metrics": {
-    "ret_1m": 22.23,
+    "ret_1m": 20.19,
     "ret_3m": -9.08,
-    "ret_12m": -43.83,
-    "mom_12_1": -52.86,
-    "trend_200d": -11.68,
+    "ret_12m": -43.34,
+    "mom_12_1": -47.47,
+    "trend_200d": -10.73,
     "above_200d": false,
     "max_drawdown": -67.61,
     "vol_annual": 58.7,
-    "sharpe_naive": -0.07,
-    "last": 1918.44
+    "sharpe_naive": -0.05,
+    "last": 1933.79
    },
    "n_obs": 731
   },
@@ -1235,16 +1235,16 @@
    "name": "Solana",
    "sector": "",
    "metrics": {
-    "ret_1m": 5.97,
-    "ret_3m": -7.48,
-    "ret_12m": -49.6,
-    "mom_12_1": -49.51,
-    "trend_200d": -13.01,
+    "ret_1m": 0.69,
+    "ret_3m": -9.44,
+    "ret_12m": -49.16,
+    "mom_12_1": -44.43,
+    "trend_200d": -12.73,
     "above_200d": false,
     "max_drawdown": -76.25,
     "vol_annual": 65.1,
-    "sharpe_naive": -0.13,
-    "last": 77.91
+    "sharpe_naive": -0.12,
+    "last": 77.92
    },
    "n_obs": 731
   },
@@ -1254,16 +1254,16 @@
    "name": "BNB",
    "sector": "",
    "metrics": {
-    "ret_1m": 4.88,
-    "ret_3m": -10.49,
-    "ret_12m": -40.27,
-    "mom_12_1": -42.28,
-    "trend_200d": -13.41,
+    "ret_1m": 3.93,
+    "ret_3m": -11.88,
+    "ret_12m": -40.01,
+    "mom_12_1": -39.87,
+    "trend_200d": -13.3,
     "above_200d": false,
     "max_drawdown": -58.35,
     "vol_annual": 42.3,
-    "sharpe_naive": 0.17,
-    "last": 572.34
+    "sharpe_naive": 0.19,
+    "last": 571.72
    },
    "n_obs": 731
   },
@@ -1273,15 +1273,15 @@
    "name": "XRP",
    "sector": "",
    "metrics": {
-    "ret_1m": 9.86,
-    "ret_3m": -16.15,
-    "ret_12m": -52.3,
-    "mom_12_1": -55.92,
-    "trend_200d": -19.44,
+    "ret_1m": 8.45,
+    "ret_3m": -16.43,
+    "ret_12m": -52.19,
+    "mom_12_1": -53.39,
+    "trend_200d": -19.17,
     "above_200d": false,
     "max_drawdown": -70.8,
     "vol_annual": 69.6,
-    "sharpe_naive": 0.66,
+    "sharpe_naive": 0.65,
     "last": 1.14
    },
    "n_obs": 731
@@ -1292,15 +1292,15 @@
    "name": "Cardano",
    "sector": "",
    "metrics": {
-    "ret_1m": 20.0,
-    "ret_3m": -30.3,
-    "ret_12m": -68.91,
-    "mom_12_1": -71.75,
-    "trend_200d": -31.66,
+    "ret_1m": 13.54,
+    "ret_3m": -29.76,
+    "ret_12m": -67.92,
+    "mom_12_1": -69.63,
+    "trend_200d": -30.61,
     "above_200d": false,
     "max_drawdown": -88.35,
-    "vol_annual": 82.2,
-    "sharpe_naive": -0.02,
+    "vol_annual": 82.1,
+    "sharpe_naive": 0.0,
     "last": 0.17
    },
    "n_obs": 731
@@ -1311,15 +1311,15 @@
    "name": "Dogecoin",
    "sector": "",
    "metrics": {
-    "ret_1m": 1.48,
-    "ret_3m": -29.01,
-    "ret_12m": -57.53,
-    "mom_12_1": -57.56,
-    "trend_200d": -25.94,
+    "ret_1m": 1.1,
+    "ret_3m": -29.55,
+    "ret_12m": -57.1,
+    "mom_12_1": -54.91,
+    "trend_200d": -25.77,
     "above_200d": false,
     "max_drawdown": -84.62,
     "vol_annual": 73.8,
-    "sharpe_naive": 0.06,
+    "sharpe_naive": 0.07,
     "last": 0.07
    },
    "n_obs": 731
@@ -1330,16 +1330,16 @@
    "name": "Avalanche",
    "sector": "",
    "metrics": {
-    "ret_1m": 0.36,
-    "ret_3m": -28.01,
-    "ret_12m": -61.5,
-    "mom_12_1": -60.39,
-    "trend_200d": -28.52,
+    "ret_1m": -0.19,
+    "ret_3m": -28.37,
+    "ret_12m": -60.46,
+    "mom_12_1": -57.97,
+    "trend_200d": -27.14,
     "above_200d": false,
     "max_drawdown": -89.05,
     "vol_annual": 71.9,
-    "sharpe_naive": -0.41,
-    "last": 6.55
+    "sharpe_naive": -0.39,
+    "last": 6.65
    },
    "n_obs": 731
   },
@@ -1349,16 +1349,16 @@
    "name": "Chainlink",
    "sector": "",
    "metrics": {
-    "ret_1m": 19.95,
-    "ret_3m": -8.74,
-    "ret_12m": -43.63,
-    "mom_12_1": -51.46,
-    "trend_200d": -7.92,
+    "ret_1m": 17.58,
+    "ret_3m": -10.18,
+    "ret_12m": -42.93,
+    "mom_12_1": -46.92,
+    "trend_200d": -7.5,
     "above_200d": false,
     "max_drawdown": -75.45,
-    "vol_annual": 72.9,
-    "sharpe_naive": 0.1,
-    "last": 8.62
+    "vol_annual": 72.8,
+    "sharpe_naive": 0.13,
+    "last": 8.64
    },
    "n_obs": 731
   },
@@ -1368,16 +1368,16 @@
    "name": "Polkadot",
    "sector": "",
    "metrics": {
-    "ret_1m": 3.21,
-    "ret_3m": -30.82,
-    "ret_12m": -72.25,
-    "mom_12_1": -71.69,
-    "trend_200d": -36.21,
+    "ret_1m": 1.49,
+    "ret_3m": -32.66,
+    "ret_12m": -71.27,
+    "mom_12_1": -70.63,
+    "trend_200d": -36.42,
     "above_200d": false,
     "max_drawdown": -92.44,
     "vol_annual": 71.1,
-    "sharpe_naive": -0.63,
-    "last": 0.85
+    "sharpe_naive": -0.61,
+    "last": 0.84
    },
    "n_obs": 731
   }
