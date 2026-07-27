@@ -1,7 +1,7 @@
 window.SITE_DATA={
- "generated": "2026-07-24",
+ "generated": "2026-07-27",
  "counts": {
-  "stocks": 30,
+  "stocks": 40,
   "etfs": 29,
   "crypto": 10
  },
@@ -218,6 +218,27 @@ window.SITE_DATA={
   },
   {
    "asset": "stock",
+   "ticker": "DLR",
+   "name": "DLR",
+   "sector": "Data Center Infrastructure",
+   "inv_score": 60,
+   "label": "Accumulate",
+   "signal_score": 68,
+   "last_date": "2026-07-27",
+   "n_signals": 11,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": -2.8,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 68.0,
+    "l2_graph": 44.0,
+    "l3_news": 52.0,
+    "l4_fa": 35.0,
+    "macro": 43.0
+   }
+  },
+  {
+   "asset": "stock",
    "ticker": "FANUY",
    "name": "FANUY",
    "sector": "Robotics & Automation",
@@ -235,6 +256,27 @@ window.SITE_DATA={
     "l3_news": 53.0,
     "l4_fa": 71.0,
     "macro": 30.0
+   }
+  },
+  {
+   "asset": "stock",
+   "ticker": "HON",
+   "name": "HON",
+   "sector": "Industrial AI",
+   "inv_score": 72,
+   "label": "Buy",
+   "signal_score": 80,
+   "last_date": "2026-07-27",
+   "n_signals": 13,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": 1.2,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 80.0,
+    "l2_graph": 49.0,
+    "l3_news": 53.0,
+    "l4_fa": 72.0,
+    "macro": 43.0
    }
   },
   {
@@ -302,6 +344,27 @@ window.SITE_DATA={
   },
   {
    "asset": "stock",
+   "ticker": "IRM",
+   "name": "IRM",
+   "sector": "Data Center Infrastructure",
+   "inv_score": 55,
+   "label": "Accumulate",
+   "signal_score": 65,
+   "last_date": "2026-07-27",
+   "n_signals": 10,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": -7.4,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 65.0,
+    "l2_graph": 49.0,
+    "l3_news": 52.0,
+    "l4_fa": 2.0,
+    "macro": 43.0
+   }
+  },
+  {
+   "asset": "stock",
    "ticker": "LITE",
    "name": "LITE",
    "sector": "AI Networking",
@@ -319,6 +382,48 @@ window.SITE_DATA={
     "l3_news": 53.0,
     "l4_fa": 32.0,
     "macro": 30.0
+   }
+  },
+  {
+   "asset": "stock",
+   "ticker": "LLY",
+   "name": "LLY",
+   "sector": "GLP-1 & Healthcare",
+   "inv_score": 69,
+   "label": "Buy",
+   "signal_score": 65,
+   "last_date": "2026-07-27",
+   "n_signals": 13,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": 3.9,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 65.0,
+    "l2_graph": 54.0,
+    "l3_news": 54.0,
+    "l4_fa": 91.0,
+    "macro": 43.0
+   }
+  },
+  {
+   "asset": "stock",
+   "ticker": "LMT",
+   "name": "LMT",
+   "sector": "Defense & Aerospace",
+   "inv_score": 73,
+   "label": "Buy",
+   "signal_score": 76,
+   "last_date": "2026-07-27",
+   "n_signals": 17,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": 2.7,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 76.0,
+    "l2_graph": 43.0,
+    "l3_news": 52.0,
+    "l4_fa": 100.0,
+    "macro": 53.0
    }
   },
   {
@@ -407,23 +512,65 @@ window.SITE_DATA={
   },
   {
    "asset": "stock",
+   "ticker": "NTAP",
+   "name": "NTAP",
+   "sector": "RAM & Memory",
+   "inv_score": 69,
+   "label": "Buy",
+   "signal_score": 63,
+   "last_date": "2026-07-27",
+   "n_signals": 14,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": -0.0,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 63.0,
+    "l2_graph": 56.0,
+    "l3_news": 52.0,
+    "l4_fa": 100.0,
+    "macro": 58.0
+   }
+  },
+  {
+   "asset": "stock",
    "ticker": "NU",
    "name": "NU",
    "sector": "Emerging Markets",
-   "inv_score": 43,
-   "label": "Watch",
-   "signal_score": 45,
-   "last_date": "2026-03-23",
-   "n_signals": 1,
+   "inv_score": 63,
+   "label": "Accumulate",
+   "signal_score": 74,
+   "last_date": "2026-07-27",
+   "n_signals": 2,
    "hit_rate_20d": null,
    "avg_return_20d_pct": -18.1,
-   "regime": "unknown",
+   "regime": "Bull",
    "layer": {
-    "l1_tech": 45.0,
-    "l2_graph": 60.0,
-    "l3_news": 51.0,
+    "l1_tech": 74.0,
+    "l2_graph": 43.0,
+    "l3_news": 54.0,
     "l4_fa": 32.0,
-    "macro": 55.0
+    "macro": 68.0
+   }
+  },
+  {
+   "asset": "stock",
+   "ticker": "NVO",
+   "name": "NVO",
+   "sector": "GLP-1 & Healthcare",
+   "inv_score": 69,
+   "label": "Buy",
+   "signal_score": 68,
+   "last_date": "2026-07-27",
+   "n_signals": 1,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": null,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 68.0,
+    "l2_graph": 59.0,
+    "l3_news": 50.0,
+    "l4_fa": 81.0,
+    "macro": 58.0
    }
   },
   {
@@ -491,6 +638,27 @@ window.SITE_DATA={
   },
   {
    "asset": "stock",
+   "ticker": "RTX",
+   "name": "RTX",
+   "sector": "Defense & Aerospace",
+   "inv_score": 67,
+   "label": "Buy",
+   "signal_score": 74,
+   "last_date": "2026-07-27",
+   "n_signals": 16,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": 8.5,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 74.0,
+    "l2_graph": 48.0,
+    "l3_news": 51.0,
+    "l4_fa": 60.0,
+    "macro": 43.0
+   }
+  },
+  {
+   "asset": "stock",
    "ticker": "S",
    "name": "S",
    "sector": "Cybersecurity",
@@ -529,6 +697,27 @@ window.SITE_DATA={
     "l3_news": 53.0,
     "l4_fa": 56.0,
     "macro": 45.0
+   }
+  },
+  {
+   "asset": "stock",
+   "ticker": "SNOW",
+   "name": "SNOW",
+   "sector": "Cloud & AI Infrastructure",
+   "inv_score": 56,
+   "label": "Accumulate",
+   "signal_score": 70,
+   "last_date": "2026-07-27",
+   "n_signals": 1,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": null,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 70.0,
+    "l2_graph": 42.0,
+    "l3_news": 51.0,
+    "l4_fa": 0.0,
+    "macro": 43.0
    }
   },
   {
@@ -617,6 +806,27 @@ window.SITE_DATA={
   },
   {
    "asset": "stock",
+   "ticker": "VRTX",
+   "name": "VRTX",
+   "sector": "Biotech / Genomics",
+   "inv_score": 69,
+   "label": "Buy",
+   "signal_score": 63,
+   "last_date": "2026-07-27",
+   "n_signals": 9,
+   "hit_rate_20d": null,
+   "avg_return_20d_pct": 0.0,
+   "regime": "Bull",
+   "layer": {
+    "l1_tech": 63.0,
+    "l2_graph": 55.0,
+    "l3_news": 53.0,
+    "l4_fa": 100.0,
+    "macro": 43.0
+   }
+  },
+  {
+   "asset": "stock",
    "ticker": "ZS",
    "name": "ZS",
    "sector": "Cybersecurity",
@@ -644,18 +854,18 @@ window.SITE_DATA={
    "name": "S&P 500",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.78,
-    "ret_3m": 4.57,
-    "ret_12m": 17.8,
+    "ret_1m": 0.8,
+    "ret_3m": 4.59,
+    "ret_12m": 17.83,
     "mom_12_1": 17.03,
-    "trend_200d": 6.26,
+    "trend_200d": 6.28,
     "above_200d": true,
     "max_drawdown": -18.76,
     "vol_annual": 16.9,
-    "sharpe_naive": 1.1,
-    "last": 738.93
+    "sharpe_naive": 1.06,
+    "last": 739.09
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -663,18 +873,18 @@ window.SITE_DATA={
    "name": "S&P 500 (Vanguard)",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.8,
-    "ret_3m": 4.58,
-    "ret_12m": 17.89,
+    "ret_1m": 0.83,
+    "ret_3m": 4.61,
+    "ret_12m": 17.92,
     "mom_12_1": 16.88,
-    "trend_200d": 6.27,
+    "trend_200d": 6.3,
     "above_200d": true,
     "max_drawdown": -18.69,
     "vol_annual": 16.4,
-    "sharpe_naive": 1.13,
-    "last": 679.14
+    "sharpe_naive": 1.1,
+    "last": 679.31
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -682,18 +892,18 @@ window.SITE_DATA={
    "name": "Nasdaq 100",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": -3.71,
-    "ret_3m": 5.15,
-    "ret_12m": 21.94,
+    "ret_1m": -4.01,
+    "ret_3m": 4.83,
+    "ret_12m": 21.57,
     "mom_12_1": 27.4,
-    "trend_200d": 6.59,
+    "trend_200d": 6.27,
     "above_200d": true,
     "max_drawdown": -22.77,
     "vol_annual": 22.2,
-    "sharpe_naive": 1.04,
-    "last": 684.23
+    "sharpe_naive": 1.01,
+    "last": 682.12
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -701,18 +911,18 @@ window.SITE_DATA={
    "name": "Dow 30",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.07,
-    "ret_3m": 5.6,
-    "ret_12m": 16.96,
+    "ret_1m": 0.56,
+    "ret_3m": 6.11,
+    "ret_12m": 17.53,
     "mom_12_1": 17.85,
-    "trend_200d": 6.7,
+    "trend_200d": 7.21,
     "above_200d": true,
     "max_drawdown": -15.95,
     "vol_annual": 15.1,
-    "sharpe_naive": 1.05,
-    "last": 518.76
+    "sharpe_naive": 1.02,
+    "last": 521.26
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -720,18 +930,18 @@ window.SITE_DATA={
    "name": "Russell 2000",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": -1.86,
-    "ret_3m": 5.93,
-    "ret_12m": 29.78,
+    "ret_1m": -1.27,
+    "ret_3m": 6.56,
+    "ret_12m": 30.56,
     "mom_12_1": 35.1,
-    "trend_200d": 10.43,
+    "trend_200d": 11.08,
     "above_200d": true,
     "max_drawdown": -27.5,
     "vol_annual": 21.8,
     "sharpe_naive": 0.8,
-    "last": 291.17
+    "last": 292.91
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -739,18 +949,18 @@ window.SITE_DATA={
    "name": "Total US Market",
    "sector": "US Broad",
    "metrics": {
-    "ret_1m": 0.6,
-    "ret_3m": 4.59,
-    "ret_12m": 18.13,
+    "ret_1m": 0.71,
+    "ret_3m": 4.7,
+    "ret_12m": 18.26,
     "mom_12_1": 17.57,
-    "trend_200d": 6.46,
+    "trend_200d": 6.57,
     "above_200d": true,
     "max_drawdown": -19.3,
     "vol_annual": 17.0,
-    "sharpe_naive": 1.09,
-    "last": 364.8
+    "sharpe_naive": 1.06,
+    "last": 365.18
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -758,18 +968,18 @@ window.SITE_DATA={
    "name": "Technology",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -3.92,
-    "ret_3m": 12.99,
-    "ret_12m": 35.85,
+    "ret_1m": -4.78,
+    "ret_3m": 11.98,
+    "ret_12m": 34.63,
     "mom_12_1": 41.96,
-    "trend_200d": 13.95,
+    "trend_200d": 12.93,
     "above_200d": true,
     "max_drawdown": -25.66,
     "vol_annual": 27.3,
-    "sharpe_naive": 1.08,
-    "last": 175.88
+    "sharpe_naive": 1.05,
+    "last": 174.3
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -777,18 +987,18 @@ window.SITE_DATA={
    "name": "Financials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 4.82,
-    "ret_3m": 9.09,
-    "ret_12m": 7.69,
+    "ret_1m": 5.88,
+    "ret_3m": 10.19,
+    "ret_12m": 8.78,
     "mom_12_1": 2.28,
-    "trend_200d": 7.51,
+    "trend_200d": 8.59,
     "above_200d": true,
     "max_drawdown": -15.54,
     "vol_annual": 17.8,
-    "sharpe_naive": 0.96,
-    "last": 56.31
+    "sharpe_naive": 0.95,
+    "last": 56.88
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -796,18 +1006,18 @@ window.SITE_DATA={
    "name": "Energy",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 11.29,
-    "ret_3m": 5.39,
-    "ret_12m": 41.64,
+    "ret_1m": 8.94,
+    "ret_3m": 3.16,
+    "ret_12m": 38.64,
     "mom_12_1": 27.59,
-    "trend_200d": 15.46,
+    "trend_200d": 13.03,
     "above_200d": true,
     "max_drawdown": -20.14,
-    "vol_annual": 23.3,
-    "sharpe_naive": 0.82,
-    "last": 59.62
+    "vol_annual": 23.4,
+    "sharpe_naive": 0.78,
+    "last": 58.36
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -815,18 +1025,18 @@ window.SITE_DATA={
    "name": "Health Care",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 6.01,
-    "ret_3m": 11.66,
-    "ret_12m": 21.38,
+    "ret_1m": 6.55,
+    "ret_3m": 12.23,
+    "ret_12m": 22.0,
     "mom_12_1": 16.64,
-    "trend_200d": 7.8,
+    "trend_200d": 8.35,
     "above_200d": true,
     "max_drawdown": -17.11,
-    "vol_annual": 16.0,
+    "vol_annual": 16.1,
     "sharpe_naive": 0.46,
-    "last": 162.57
+    "last": 163.4
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -834,18 +1044,18 @@ window.SITE_DATA={
    "name": "Industrials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 1.36,
-    "ret_3m": 5.19,
-    "ret_12m": 20.35,
+    "ret_1m": 1.66,
+    "ret_3m": 5.5,
+    "ret_12m": 20.71,
     "mom_12_1": 21.52,
-    "trend_200d": 10.13,
+    "trend_200d": 10.45,
     "above_200d": true,
     "max_drawdown": -18.49,
     "vol_annual": 18.2,
-    "sharpe_naive": 1.23,
-    "last": 182.66
+    "sharpe_naive": 1.2,
+    "last": 183.2
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -853,18 +1063,18 @@ window.SITE_DATA={
    "name": "Consumer Disc.",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -4.92,
-    "ret_3m": -6.89,
-    "ret_12m": -2.66,
+    "ret_1m": -3.68,
+    "ret_3m": -5.67,
+    "ret_12m": -1.39,
     "mom_12_1": 2.54,
-    "trend_200d": -6.32,
+    "trend_200d": -5.1,
     "above_200d": false,
     "max_drawdown": -26.01,
-    "vol_annual": 22.6,
-    "sharpe_naive": 0.58,
-    "last": 109.41
+    "vol_annual": 22.7,
+    "sharpe_naive": 0.55,
+    "last": 110.84
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -872,18 +1082,18 @@ window.SITE_DATA={
    "name": "Consumer Staples",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": -0.37,
-    "ret_3m": 1.48,
-    "ret_12m": 5.9,
+    "ret_1m": 1.09,
+    "ret_3m": 2.96,
+    "ret_12m": 7.44,
     "mom_12_1": 6.03,
-    "trend_200d": 3.56,
+    "trend_200d": 5.06,
     "above_200d": true,
     "max_drawdown": -9.69,
-    "vol_annual": 13.7,
-    "sharpe_naive": 0.55,
-    "last": 84.13
+    "vol_annual": 13.8,
+    "sharpe_naive": 0.57,
+    "last": 85.36
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -891,18 +1101,18 @@ window.SITE_DATA={
    "name": "Utilities",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 1.65,
-    "ret_3m": 1.08,
-    "ret_12m": 12.74,
+    "ret_1m": 0.31,
+    "ret_3m": -0.26,
+    "ret_12m": 11.25,
     "mom_12_1": 11.81,
-    "trend_200d": 4.35,
+    "trend_200d": 2.98,
     "above_200d": true,
     "max_drawdown": -10.5,
-    "vol_annual": 16.0,
-    "sharpe_naive": 1.12,
-    "last": 46.29
+    "vol_annual": 16.1,
+    "sharpe_naive": 1.03,
+    "last": 45.68
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -910,18 +1120,18 @@ window.SITE_DATA={
    "name": "Materials",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 0.2,
-    "ret_3m": -0.69,
-    "ret_12m": 13.17,
+    "ret_1m": 0.45,
+    "ret_3m": -0.44,
+    "ret_12m": 13.46,
     "mom_12_1": 15.64,
-    "trend_200d": 5.85,
+    "trend_200d": 6.12,
     "above_200d": true,
     "max_drawdown": -23.17,
     "vol_annual": 18.8,
-    "sharpe_naive": 0.55,
-    "last": 51.26
+    "sharpe_naive": 0.51,
+    "last": 51.39
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -929,18 +1139,18 @@ window.SITE_DATA={
    "name": "Real Estate",
    "sector": "US Sector",
    "metrics": {
-    "ret_1m": 3.24,
-    "ret_3m": 5.44,
-    "ret_12m": 10.93,
+    "ret_1m": 2.81,
+    "ret_3m": 5.01,
+    "ret_12m": 10.47,
     "mom_12_1": 7.8,
-    "trend_200d": 9.51,
+    "trend_200d": 9.06,
     "above_200d": true,
     "max_drawdown": -16.57,
-    "vol_annual": 16.3,
-    "sharpe_naive": 0.71,
-    "last": 45.95
+    "vol_annual": 16.2,
+    "sharpe_naive": 0.63,
+    "last": 45.76
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -948,18 +1158,18 @@ window.SITE_DATA={
    "name": "Semiconductors",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -9.33,
-    "ret_3m": 16.47,
-    "ret_12m": 96.41,
+    "ret_1m": -11.37,
+    "ret_3m": 13.84,
+    "ret_12m": 91.99,
     "mom_12_1": 121.98,
-    "trend_200d": 26.0,
+    "trend_200d": 23.18,
     "above_200d": true,
     "max_drawdown": -32.65,
-    "vol_annual": 39.6,
-    "sharpe_naive": 1.31,
-    "last": 561.19
+    "vol_annual": 39.8,
+    "sharpe_naive": 1.27,
+    "last": 548.55
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -967,18 +1177,18 @@ window.SITE_DATA={
    "name": "ARK Innovation",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -6.3,
-    "ret_3m": -6.03,
-    "ret_12m": -7.05,
+    "ret_1m": -5.46,
+    "ret_3m": -5.19,
+    "ret_12m": -6.22,
     "mom_12_1": 0.98,
-    "trend_200d": -7.51,
+    "trend_200d": -6.69,
     "above_200d": false,
     "max_drawdown": -39.56,
-    "vol_annual": 41.5,
-    "sharpe_naive": 0.77,
-    "last": 71.89
+    "vol_annual": 41.6,
+    "sharpe_naive": 0.76,
+    "last": 72.53
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -986,18 +1196,18 @@ window.SITE_DATA={
    "name": "Clean Energy",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": -13.18,
-    "ret_3m": -11.48,
-    "ret_12m": 28.88,
+    "ret_1m": -13.04,
+    "ret_3m": -11.33,
+    "ret_12m": 29.1,
     "mom_12_1": 47.29,
-    "trend_200d": -4.06,
+    "trend_200d": -3.9,
     "above_200d": false,
     "max_drawdown": -27.81,
     "vol_annual": 26.6,
     "sharpe_naive": 0.65,
-    "last": 17.78
+    "last": 17.81
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -1005,18 +1215,18 @@ window.SITE_DATA={
    "name": "Biotech",
    "sector": "Thematic",
    "metrics": {
-    "ret_1m": 3.64,
-    "ret_3m": 9.7,
-    "ret_12m": 39.29,
+    "ret_1m": 3.75,
+    "ret_3m": 9.81,
+    "ret_12m": 39.44,
     "mom_12_1": 35.97,
-    "trend_200d": 10.32,
+    "trend_200d": 10.43,
     "above_200d": true,
     "max_drawdown": -24.85,
     "vol_annual": 21.9,
-    "sharpe_naive": 0.69,
-    "last": 188.14
+    "sharpe_naive": 0.68,
+    "last": 188.33
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -1024,18 +1234,18 @@ window.SITE_DATA={
    "name": "Developed ex-US",
    "sector": "International",
    "metrics": {
-    "ret_1m": 1.12,
-    "ret_3m": 3.76,
-    "ret_12m": 16.83,
+    "ret_1m": 1.61,
+    "ret_3m": 4.26,
+    "ret_12m": 17.4,
     "mom_12_1": 17.41,
-    "trend_200d": 5.58,
+    "trend_200d": 6.08,
     "above_200d": true,
     "max_drawdown": -14.05,
     "vol_annual": 16.7,
-    "sharpe_naive": 1.12,
-    "last": 103.41
+    "sharpe_naive": 1.11,
+    "last": 103.91
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -1043,18 +1253,18 @@ window.SITE_DATA={
    "name": "Emerging Markets",
    "sector": "International",
    "metrics": {
-    "ret_1m": -5.83,
-    "ret_3m": 2.1,
-    "ret_12m": 29.32,
+    "ret_1m": -5.4,
+    "ret_3m": 2.57,
+    "ret_12m": 29.91,
     "mom_12_1": 39.53,
-    "trend_200d": 6.24,
+    "trend_200d": 6.73,
     "above_200d": true,
     "max_drawdown": -17.29,
     "vol_annual": 21.8,
     "sharpe_naive": 1.17,
-    "last": 63.33
+    "last": 63.62
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -1062,18 +1272,18 @@ window.SITE_DATA={
    "name": "Emerging (Vanguard)",
    "sector": "International",
    "metrics": {
-    "ret_1m": -1.98,
-    "ret_3m": -0.09,
-    "ret_12m": 15.78,
+    "ret_1m": -1.25,
+    "ret_3m": 0.65,
+    "ret_12m": 16.64,
     "mom_12_1": 18.36,
-    "trend_200d": 2.72,
+    "trend_200d": 3.48,
     "above_200d": true,
     "max_drawdown": -17.37,
     "vol_annual": 18.0,
-    "sharpe_naive": 1.06,
-    "last": 57.8
+    "sharpe_naive": 1.07,
+    "last": 58.23
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -1081,18 +1291,18 @@ window.SITE_DATA={
    "name": "China Large-Cap",
    "sector": "International",
    "metrics": {
-    "ret_1m": 6.86,
-    "ret_3m": -4.52,
-    "ret_12m": -9.88,
+    "ret_1m": 9.02,
+    "ret_3m": -2.59,
+    "ret_12m": -8.06,
     "mom_12_1": -17.06,
-    "trend_200d": -6.63,
+    "trend_200d": -4.75,
     "above_200d": false,
     "max_drawdown": -23.24,
-    "vol_annual": 28.4,
-    "sharpe_naive": 0.77,
-    "last": 34.58
+    "vol_annual": 28.5,
+    "sharpe_naive": 0.8,
+    "last": 35.28
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -1100,18 +1310,18 @@ window.SITE_DATA={
    "name": "Gold",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": 1.63,
-    "ret_3m": -13.72,
-    "ret_12m": 19.13,
+    "ret_1m": 2.38,
+    "ret_3m": -13.09,
+    "ret_12m": 20.0,
     "mom_12_1": 19.08,
-    "trend_200d": -9.69,
+    "trend_200d": -9.03,
     "above_200d": false,
     "max_drawdown": -26.4,
     "vol_annual": 23.5,
     "sharpe_naive": 1.26,
-    "last": 371.9
+    "last": 374.63
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -1119,18 +1329,18 @@ window.SITE_DATA={
    "name": "Silver",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": 1.56,
-    "ret_3m": -23.09,
-    "ret_12m": 47.35,
+    "ret_1m": 2.22,
+    "ret_3m": -22.59,
+    "ret_12m": 48.3,
     "mom_12_1": 47.53,
-    "trend_200d": -17.04,
+    "trend_200d": -16.5,
     "above_200d": false,
     "max_drawdown": -52.28,
-    "vol_annual": 47.7,
-    "sharpe_naive": 1.02,
-    "last": 52.59
+    "vol_annual": 47.8,
+    "sharpe_naive": 1.03,
+    "last": 52.93
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -1138,18 +1348,18 @@ window.SITE_DATA={
    "name": "20+yr Treasuries",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -4.37,
-    "ret_3m": -2.72,
-    "ret_12m": 1.17,
+    "ret_1m": -3.8,
+    "ret_3m": -2.14,
+    "ret_12m": 1.77,
     "mom_12_1": 5.94,
-    "trend_200d": -3.15,
+    "trend_200d": -2.57,
     "above_200d": false,
     "max_drawdown": -14.79,
     "vol_annual": 11.9,
-    "sharpe_naive": -0.01,
-    "last": 83.25
+    "sharpe_naive": -0.04,
+    "last": 83.75
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -1157,18 +1367,18 @@ window.SITE_DATA={
    "name": "High-Yield Bonds",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -0.32,
-    "ret_3m": 0.07,
-    "ret_12m": 4.31,
+    "ret_1m": -0.27,
+    "ret_3m": 0.12,
+    "ret_12m": 4.36,
     "mom_12_1": 4.81,
-    "trend_200d": 0.89,
+    "trend_200d": 0.94,
     "above_200d": true,
     "max_drawdown": -4.56,
     "vol_annual": 4.8,
-    "sharpe_naive": 1.4,
-    "last": 79.23
+    "sharpe_naive": 1.38,
+    "last": 79.27
    },
-   "n_obs": 501
+   "n_obs": 499
   },
   {
    "asset": "etf",
@@ -1176,18 +1386,18 @@ window.SITE_DATA={
    "name": "US Agg Bonds",
    "sector": "Commodity / Bond",
    "metrics": {
-    "ret_1m": -1.41,
-    "ret_3m": -1.01,
-    "ret_12m": 3.09,
+    "ret_1m": -1.18,
+    "ret_3m": -0.78,
+    "ret_12m": 3.33,
     "mom_12_1": 4.7,
-    "trend_200d": -0.71,
+    "trend_200d": -0.48,
     "above_200d": false,
     "max_drawdown": -4.82,
     "vol_annual": 4.6,
-    "sharpe_naive": 0.83,
-    "last": 97.46
+    "sharpe_naive": 0.8,
+    "last": 97.69
    },
-   "n_obs": 501
+   "n_obs": 499
   }
  ],
  "crypto": [
@@ -1197,16 +1407,16 @@ window.SITE_DATA={
    "name": "Bitcoin",
    "sector": "",
    "metrics": {
-    "ret_1m": 2.49,
-    "ret_3m": -15.09,
-    "ret_12m": -32.1,
-    "mom_12_1": -33.97,
-    "trend_200d": -11.47,
+    "ret_1m": 1.18,
+    "ret_3m": -16.21,
+    "ret_12m": -29.69,
+    "mom_12_1": -31.9,
+    "trend_200d": -10.07,
     "above_200d": false,
     "max_drawdown": -53.06,
-    "vol_annual": 38.3,
-    "sharpe_naive": 0.17,
-    "last": 64100.01
+    "vol_annual": 38.2,
+    "sharpe_naive": 0.15,
+    "last": 64749.61
    },
    "n_obs": 731
   },
@@ -1216,16 +1426,16 @@ window.SITE_DATA={
    "name": "Ethereum",
    "sector": "",
    "metrics": {
-    "ret_1m": 5.76,
-    "ret_3m": -10.02,
-    "ret_12m": -40.15,
-    "mom_12_1": -43.82,
-    "trend_200d": -13.72,
+    "ret_1m": 7.88,
+    "ret_3m": -8.15,
+    "ret_12m": -35.88,
+    "mom_12_1": -43.37,
+    "trend_200d": -9.13,
     "above_200d": false,
     "max_drawdown": -67.61,
-    "vol_annual": 58.7,
-    "sharpe_naive": -0.05,
-    "last": 1857.73
+    "vol_annual": 58.6,
+    "sharpe_naive": -0.01,
+    "last": 1939.21
    },
    "n_obs": 731
   },
@@ -1235,16 +1445,16 @@ window.SITE_DATA={
    "name": "Solana",
    "sector": "",
    "metrics": {
-    "ret_1m": -10.22,
-    "ret_3m": -12.38,
-    "ret_12m": -46.73,
-    "mom_12_1": -41.48,
-    "trend_200d": -16.7,
+    "ret_1m": -7.9,
+    "ret_3m": -11.26,
+    "ret_12m": -42.35,
+    "mom_12_1": -42.69,
+    "trend_200d": -14.01,
     "above_200d": false,
     "max_drawdown": -76.25,
-    "vol_annual": 65.0,
-    "sharpe_naive": -0.14,
-    "last": 73.87
+    "vol_annual": 64.9,
+    "sharpe_naive": -0.15,
+    "last": 75.44
    },
    "n_obs": 731
   },
@@ -1254,16 +1464,16 @@ window.SITE_DATA={
    "name": "BNB",
    "sector": "",
    "metrics": {
-    "ret_1m": -1.6,
-    "ret_3m": -13.12,
-    "ret_12m": -38.36,
-    "mom_12_1": -38.32,
-    "trend_200d": -14.0,
+    "ret_1m": -2.12,
+    "ret_3m": -13.48,
+    "ret_12m": -36.79,
+    "mom_12_1": -38.14,
+    "trend_200d": -12.0,
     "above_200d": false,
     "max_drawdown": -58.35,
     "vol_annual": 42.3,
     "sharpe_naive": 0.2,
-    "last": 564.24
+    "last": 573.0
    },
    "n_obs": 731
   },
@@ -1273,15 +1483,15 @@ window.SITE_DATA={
    "name": "XRP",
    "sector": "",
    "metrics": {
-    "ret_1m": -3.79,
-    "ret_3m": -18.2,
-    "ret_12m": -51.38,
-    "mom_12_1": -48.25,
-    "trend_200d": -22.1,
+    "ret_1m": -5.09,
+    "ret_3m": -19.55,
+    "ret_12m": -49.79,
+    "mom_12_1": -49.84,
+    "trend_200d": -21.56,
     "above_200d": false,
     "max_drawdown": -70.8,
     "vol_annual": 69.6,
-    "sharpe_naive": 0.62,
+    "sharpe_naive": 0.63,
     "last": 1.09
    },
    "n_obs": 731
@@ -1292,15 +1502,15 @@ window.SITE_DATA={
    "name": "Cardano",
    "sector": "",
    "metrics": {
-    "ret_1m": -8.96,
-    "ret_3m": -32.43,
-    "ret_12m": -67.14,
-    "mom_12_1": -61.85,
-    "trend_200d": -34.38,
+    "ret_1m": -13.76,
+    "ret_3m": -34.82,
+    "ret_12m": -65.91,
+    "mom_12_1": -63.26,
+    "trend_200d": -35.48,
     "above_200d": false,
     "max_drawdown": -88.35,
     "vol_annual": 82.1,
-    "sharpe_naive": -0.0,
+    "sharpe_naive": -0.03,
     "last": 0.16
    },
    "n_obs": 731
@@ -1311,14 +1521,14 @@ window.SITE_DATA={
    "name": "Dogecoin",
    "sector": "",
    "metrics": {
-    "ret_1m": -10.59,
-    "ret_3m": -32.25,
-    "ret_12m": -56.0,
-    "mom_12_1": -52.44,
-    "trend_200d": -28.94,
+    "ret_1m": -6.27,
+    "ret_3m": -29.67,
+    "ret_12m": -52.74,
+    "mom_12_1": -54.12,
+    "trend_200d": -25.53,
     "above_200d": false,
     "max_drawdown": -85.21,
-    "vol_annual": 73.7,
+    "vol_annual": 73.6,
     "sharpe_naive": 0.08,
     "last": 0.07
    },
@@ -1330,16 +1540,16 @@ window.SITE_DATA={
    "name": "Avalanche",
    "sector": "",
    "metrics": {
-    "ret_1m": -9.74,
-    "ret_3m": -31.45,
-    "ret_12m": -58.51,
-    "mom_12_1": -55.14,
-    "trend_200d": -30.69,
+    "ret_1m": -5.09,
+    "ret_3m": -29.37,
+    "ret_12m": -54.69,
+    "mom_12_1": -54.1,
+    "trend_200d": -26.46,
     "above_200d": false,
     "max_drawdown": -89.05,
     "vol_annual": 71.8,
-    "sharpe_naive": -0.36,
-    "last": 6.27
+    "sharpe_naive": -0.34,
+    "last": 6.57
    },
    "n_obs": 731
   },
@@ -1349,16 +1559,16 @@ window.SITE_DATA={
    "name": "Chainlink",
    "sector": "",
    "metrics": {
-    "ret_1m": 4.49,
-    "ret_3m": -11.63,
-    "ret_12m": -39.71,
-    "mom_12_1": -43.34,
-    "trend_200d": -10.44,
+    "ret_1m": 7.05,
+    "ret_3m": -9.65,
+    "ret_12m": -35.51,
+    "mom_12_1": -43.04,
+    "trend_200d": -6.89,
     "above_200d": false,
     "max_drawdown": -75.45,
     "vol_annual": 72.8,
-    "sharpe_naive": 0.13,
-    "last": 8.32
+    "sharpe_naive": 0.14,
+    "last": 8.58
    },
    "n_obs": 731
   },
@@ -1368,16 +1578,16 @@ window.SITE_DATA={
    "name": "Polkadot",
    "sector": "",
    "metrics": {
-    "ret_1m": -8.59,
-    "ret_3m": -35.98,
-    "ret_12m": -71.35,
-    "mom_12_1": -68.79,
-    "trend_200d": -38.44,
+    "ret_1m": -10.46,
+    "ret_3m": -37.2,
+    "ret_12m": -70.25,
+    "mom_12_1": -69.11,
+    "trend_200d": -38.48,
     "above_200d": false,
-    "max_drawdown": -92.48,
-    "vol_annual": 71.0,
-    "sharpe_naive": -0.6,
-    "last": 0.81
+    "max_drawdown": -92.6,
+    "vol_annual": 71.1,
+    "sharpe_naive": -0.62,
+    "last": 0.79
    },
    "n_obs": 731
   }
